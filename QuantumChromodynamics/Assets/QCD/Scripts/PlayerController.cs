@@ -18,6 +18,20 @@ public class PlayerController : MonoBehaviour
     private bool hasDoubleJumped;
     private bool hasJumped;
 
+    [Header("Wall Jump")]
+    public Transform wallCheck;
+    public float wallCheckDistance = 0.5f;
+
+    public float wallJumpForceX = 10f;
+    public float wallJumpForceY = 14f;
+    public float wallSlideSpeed = 2f;
+
+    private bool isTouchingWall;
+    private bool isWallSliding;
+    private bool isWallJumping;
+    private float wallDirection;
+    public LayerMask wallLayer;
+
     [Header("Dash")]
     public float dashForce = 30f;
     public float dashDuration = 0.35f;
@@ -28,15 +42,32 @@ public class PlayerController : MonoBehaviour
     private float dashTime;
     private float dashCooldownTimer;
 
+    [Header("Color Probes")]
+    public ProbeManager probeManager;
+    public GameObject probe1;
+    public GameObject probe2;
+    public GameObject probe3;
+    private ProbeBehavior pB1;
+    private ProbeBehavior pB2;
+    private ProbeBehavior pB3;
+
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        probeManager = transform.Find("ProbePosition").GetComponent<ProbeManager>();
+        probe1 = probeManager.probe1;
+        probe2 = probeManager.probe2;
+        probe3 = probeManager.probe3;
+        pB1 = probe1.GetComponent<ProbeBehavior>();
+        pB2 = probe2.GetComponent<ProbeBehavior>();
+        pB3 = probe3.GetComponent<ProbeBehavior>();
         hasDoubleJumped = false;
         hasJumped = false;
     }
 
     void Update()
     {
+
         moveInput = Input.GetAxisRaw("Horizontal");
 
         // Track last movement direction
@@ -51,6 +82,31 @@ public class PlayerController : MonoBehaviour
             groundCheckRadius,
             groundLayer
         );
+
+        isTouchingWall = Physics2D.OverlapCircle(
+            wallCheck.position,
+            wallCheckDistance,
+            wallLayer
+        );
+
+        // Wall direction
+        wallDirection = transform.localScale.x;
+
+        // Wall slide
+        if (isTouchingWall && !isGrounded && rb.linearVelocity.y < 0)
+        {
+            isWallSliding = true;
+        }
+        else
+        {
+            isWallSliding = false;
+        }
+
+        // Wall jump
+        if (isWallSliding && Input.GetButtonDown("Jump"))
+        {
+            WallJump();
+        }
 
         // Jump
         if (Input.GetButtonDown("Jump") && isGrounded)
@@ -85,14 +141,45 @@ public class PlayerController : MonoBehaviour
         {
             StartDash();
         }
+
+        if(Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            bool newState = !pB1.lightObject.activeSelf;
+            pB1.lightObject.SetActive(newState);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            bool newState = !pB2.lightObject.activeSelf;
+            pB2.lightObject.SetActive(newState);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            bool newState = !pB3.lightObject.activeSelf;
+            pB3.lightObject.SetActive(newState);
+        }
     }
 
     void FixedUpdate()
     {
         if (isDashing)
-            return; // Ignore normal movement while dashing
+            return;
 
-        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
+        // WALL SLIDE
+        if (isWallSliding)
+        {
+            canDash = true;
+
+            rb.linearVelocity = new Vector2(
+                Mathf.Clamp(rb.linearVelocity.x, -1f, 1f),
+                -wallSlideSpeed
+            );
+        }
+
+        // NORMAL MOVEMENT
+        if (!isWallJumping)
+        {
+            rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
+        }
     }
 
     void StartDash()
@@ -112,6 +199,22 @@ public class PlayerController : MonoBehaviour
     void EndDash()
     {
         isDashing = false;
-        rb.gravityScale = 20f; // Set back to your normal gravity
+        rb.gravityScale = 4f; // Set back to your normal gravity
+    }
+    void WallJump()
+    {
+        isWallJumping = true;
+
+        rb.linearVelocity = new Vector2(
+            -wallDirection * wallJumpForceX,
+            wallJumpForceY
+        );
+
+        Invoke(nameof(StopWallJump), 0.2f);
+    }
+
+    void StopWallJump()
+    {
+        isWallJumping = false;
     }
 }

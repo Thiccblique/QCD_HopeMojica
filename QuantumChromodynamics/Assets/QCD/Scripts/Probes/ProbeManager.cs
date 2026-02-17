@@ -5,9 +5,9 @@ using System.Linq;
 public class ProbeManager : MonoBehaviour
 {
     [Header("Probe GameObjects")]
-    [SerializeField] private GameObject probe1;
-    [SerializeField] private GameObject probe2;
-    [SerializeField] private GameObject probe3;
+    [SerializeField] public GameObject probe1;
+    [SerializeField] public GameObject probe2;
+    [SerializeField] public GameObject probe3;
 
     [Header("Float Settings")]
     [SerializeField] private float followSpeed = 5f;

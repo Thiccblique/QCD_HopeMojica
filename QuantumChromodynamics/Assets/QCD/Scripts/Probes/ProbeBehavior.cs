@@ -3,7 +3,7 @@ using UnityEngine;
 public class ProbeBehavior : MonoBehaviour
 {
     [Header("Light Settings")]
-    [SerializeField] private GameObject lightObject;
+    [SerializeField] public GameObject lightObject;
     [SerializeField] private bool lightStartsOn = false;
 
     void Start()
