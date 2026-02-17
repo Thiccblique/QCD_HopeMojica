@@ -582,6 +582,7 @@ PlayerSettings:
   webWasm2023: 0
   webEnableSubmoduleStrippingCompatibility: 0
   scriptingDefineSymbols:
+<<<<<<< HEAD
     Android: DOTWEEN;DOTWEEN_UITOOLKIT
     EmbeddedLinux: DOTWEEN;DOTWEEN_UITOOLKIT
     GameCoreScarlett: DOTWEEN;DOTWEEN_UITOOLKIT
@@ -600,6 +601,26 @@ PlayerSettings:
     XboxOne: DOTWEEN;DOTWEEN_UITOOLKIT
     iPhone: DOTWEEN;DOTWEEN_UITOOLKIT
     tvOS: DOTWEEN;DOTWEEN_UITOOLKIT
+=======
+    Android: DOTWEEN
+    EmbeddedLinux: DOTWEEN
+    GameCoreScarlett: DOTWEEN
+    GameCoreXboxOne: DOTWEEN
+    Kepler: DOTWEEN
+    LinuxHeadlessSimulation: DOTWEEN
+    Nintendo Switch: DOTWEEN
+    PS4: DOTWEEN
+    PS5: DOTWEEN
+    QNX: DOTWEEN
+    ReservedCFE: DOTWEEN
+    Standalone: DOTWEEN
+    VisionOS: DOTWEEN
+    WebGL: DOTWEEN
+    Windows Store Apps: DOTWEEN
+    XboxOne: DOTWEEN
+    iPhone: DOTWEEN
+    tvOS: DOTWEEN
+>>>>>>> 40ccea9fa4a22e86fd2592fb839f31739c39320f
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
