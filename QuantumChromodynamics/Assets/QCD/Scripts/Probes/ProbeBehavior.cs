@@ -34,19 +34,4 @@ public class ProbeBehavior : MonoBehaviour
         transform.rotation = Quaternion.Euler(0f, 0f, angle);
     }
 
-    void OnMouseDown()
-    {
-        Debug.Log($"{gameObject.name} clicked!");
-        
-        if (lightObject != null)
-        {
-            bool newState = !lightObject.activeSelf;
-            lightObject.SetActive(newState);
-            Debug.Log($"Light is now {(newState ? "ON" : "OFF")}");
-        }
-        else
-        {
-            Debug.LogWarning($"{gameObject.name}: Light object is not assigned!");
-        }
-    }
 }

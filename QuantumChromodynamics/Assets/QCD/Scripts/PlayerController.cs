@@ -8,23 +8,25 @@ public class PlayerController : MonoBehaviour
     [Header("Jump")]
     public float jumpForce = 20f;
     public Transform groundCheck;
-    public float groundCheckRadius = 0.2f;
+    public float groundCheckRadius = 0.1f;
     public LayerMask groundLayer;
 
     private Rigidbody2D rb;
     private float moveInput;
     private float lastMoveDirection = 1f;
     private bool isGrounded;
-    private bool hasDoubleJumped;
-    private bool hasJumped;
+    private int jumpsRemaining;
+    public int maxJumps = 2;
 
     [Header("Wall Jump")]
     public Transform wallCheck;
     public float wallCheckDistance = 0.5f;
 
-    public float wallJumpForceX = 10f;
+    public float wallJumpForceX = 16f;
     public float wallJumpForceY = 14f;
-    public float wallSlideSpeed = 2f;
+    public float wallSlideSpeed = 1f;
+    private float wallJumpLockTime = 0.2f;
+    private float wallJumpLockCounter;
 
     private bool isTouchingWall;
     private bool isWallSliding;
@@ -61,12 +63,12 @@ public class PlayerController : MonoBehaviour
         pB1 = probe1.GetComponent<ProbeBehavior>();
         pB2 = probe2.GetComponent<ProbeBehavior>();
         pB3 = probe3.GetComponent<ProbeBehavior>();
-        hasDoubleJumped = false;
-        hasJumped = false;
+        jumpsRemaining = maxJumps;
     }
 
     void Update()
     {
+        //Debug.Log(jumpsRemaining.ToString());
 
         moveInput = Input.GetAxisRaw("Horizontal");
 
@@ -83,6 +85,11 @@ public class PlayerController : MonoBehaviour
             groundLayer
         );
 
+        if (rb.linearVelocity.y > 0)
+        {
+            isGrounded = false;
+        }
+
         isTouchingWall = Physics2D.OverlapCircle(
             wallCheck.position,
             wallCheckDistance,
@@ -90,10 +97,18 @@ public class PlayerController : MonoBehaviour
         );
 
         // Wall direction
-        wallDirection = transform.localScale.x;
+        RaycastHit2D wallHitRight = Physics2D.Raycast(transform.position, Vector2.right, wallCheckDistance, wallLayer);
+        RaycastHit2D wallHitLeft = Physics2D.Raycast(transform.position, Vector2.left, wallCheckDistance, wallLayer);
+
+        isTouchingWall = wallHitRight || wallHitLeft;
+
+        if (wallHitRight)
+            wallDirection = 1f;
+        else if (wallHitLeft)
+            wallDirection = -1f;
 
         // Wall slide
-        if (isTouchingWall && !isGrounded && rb.linearVelocity.y < 0)
+        if (isTouchingWall && !isGrounded && rb.linearVelocity.y < 0 && wallJumpLockCounter <= 0)
         {
             isWallSliding = true;
         }
@@ -102,29 +117,34 @@ public class PlayerController : MonoBehaviour
             isWallSliding = false;
         }
 
-        // Wall jump
-        if (isWallSliding && Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump"))
         {
-            WallJump();
+            // WALL JUMP
+            if (isTouchingWall && !isGrounded)
+            {
+                WallJump();
+                canDash = true;
+                jumpsRemaining = maxJumps - 1; // allow one air jump after wall jump
+                return;
+            }
+
+            // NORMAL / DOUBLE JUMP
+            if (jumpsRemaining > 0)
+            {
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+                jumpsRemaining--;
+            }
         }
 
-        // Jump
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        // Reset jumps when grounded
+        if (isGrounded)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-            hasJumped = true;
+            jumpsRemaining = maxJumps;
         }
 
-        if(Input.GetButtonDown("Jump") && hasJumped && !hasDoubleJumped && !isGrounded)
+        if (isTouchingWall)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-            hasDoubleJumped = true;
-        }
-
-        if(hasDoubleJumped && isGrounded)
-        {
-            hasDoubleJumped = false;
-            hasJumped = false;
+            jumpsRemaining = 1;
         }
 
         if (!canDash)
@@ -164,22 +184,19 @@ public class PlayerController : MonoBehaviour
         if (isDashing)
             return;
 
-        // WALL SLIDE
-        if (isWallSliding)
+        if (wallJumpLockCounter > 0)
         {
-            canDash = true;
-
-            rb.linearVelocity = new Vector2(
-                Mathf.Clamp(rb.linearVelocity.x, -1f, 1f),
-                -wallSlideSpeed
-            );
+            wallJumpLockCounter -= Time.fixedDeltaTime;
+            return; // Ignore player input during lock
         }
 
-        // NORMAL MOVEMENT
-        if (!isWallJumping)
+        if (isWallSliding && wallJumpLockCounter <= 0)
         {
-            rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
+            rb.linearVelocity = new Vector2(0f, -wallSlideSpeed);
+            return;
         }
+
+        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
     }
 
     void StartDash()
@@ -203,18 +220,11 @@ public class PlayerController : MonoBehaviour
     }
     void WallJump()
     {
-        isWallJumping = true;
+        wallJumpLockCounter = wallJumpLockTime;
 
         rb.linearVelocity = new Vector2(
             -wallDirection * wallJumpForceX,
             wallJumpForceY
         );
-
-        Invoke(nameof(StopWallJump), 0.2f);
-    }
-
-    void StopWallJump()
-    {
-        isWallJumping = false;
     }
 }
