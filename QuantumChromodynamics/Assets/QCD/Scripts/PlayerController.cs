@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D rb;
     private float moveInput;
+    private float lastMoveDirection = 1f;
     private bool isGrounded;
     private bool hasDoubleJumped;
     private bool hasJumped;
@@ -37,6 +38,12 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         moveInput = Input.GetAxisRaw("Horizontal");
+
+        // Track last movement direction
+        if (moveInput != 0)
+        {
+            lastMoveDirection = Mathf.Sign(moveInput);
+        }
 
         // Check if touching ground
         isGrounded = Physics2D.OverlapCircle(
@@ -78,11 +85,6 @@ public class PlayerController : MonoBehaviour
         {
             StartDash();
         }
-
-        if (moveInput != 0)
-        {
-            transform.localScale = new Vector3(Mathf.Sign(moveInput), 1f, 1f);
-        }
     }
 
     void FixedUpdate()
@@ -102,7 +104,7 @@ public class PlayerController : MonoBehaviour
 
         rb.gravityScale = 0f;
 
-        float dashDirection = Mathf.Sign(transform.localScale.x);
+        float dashDirection = moveInput != 0 ? Mathf.Sign(moveInput) : lastMoveDirection;
         rb.linearVelocity = new Vector2(dashDirection * dashForce, 0f);
 
         Invoke(nameof(EndDash), dashDuration);
@@ -110,6 +112,6 @@ public class PlayerController : MonoBehaviour
     void EndDash()
     {
         isDashing = false;
-        rb.gravityScale = 3f; // Set back to your normal gravity
+        rb.gravityScale = 20f; // Set back to your normal gravity
     }
 }

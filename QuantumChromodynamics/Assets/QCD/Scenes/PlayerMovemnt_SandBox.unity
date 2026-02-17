@@ -274,7 +274,7 @@ Rigidbody2D:
   m_Mass: 25
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 3
+  m_GravityScale: 20
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -298,16 +298,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9459ad094ef33114eb1db94e815bc16d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  moveSpeed: 7
-  jumpForce: 18
+  moveSpeed: 14
+  jumpForce: 45
   groundCheck: {fileID: 1884131856}
   groundCheckRadius: 0.2
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
-  dashForce: 25
-  dashDuration: 0.3
-  dashCooldown: 1
+  dashForce: 50
+  dashDuration: 0.15
+  dashCooldown: 0.5
 --- !u!1 &151205248
 GameObject:
   m_ObjectHideFlags: 0
