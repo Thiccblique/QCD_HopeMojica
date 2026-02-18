@@ -194,7 +194,7 @@ Rigidbody2D:
   m_Mass: 100
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 4
+  m_GravityScale: 10
   m_Material: {fileID: 6200000, guid: 2d4f77082e2b0e748b8c042120584feb, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
@@ -219,13 +219,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   moveSpeed: 14
-  jumpForce: 25
+  jumpForce: 35
   groundCheck: {fileID: 8647166187465748782}
   groundCheckRadius: 0.25
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
-  maxJumps: 2
+  maxJumps: 1
   wallCheck: {fileID: 8405488879318820216}
   wallCheckDistance: 0.6
   wallJumpForceX: 16
@@ -234,7 +234,7 @@ MonoBehaviour:
   wallLayer:
     serializedVersion: 2
     m_Bits: 64
-  dashForce: 50
+  dashForce: 40
   dashDuration: 0.15
   dashCooldown: 0.5
   probeManager: {fileID: 0}

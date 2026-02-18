@@ -53,6 +53,9 @@ public class PlayerController : MonoBehaviour
     private ProbeBehavior pB2;
     private ProbeBehavior pB3;
 
+    [Header("Respawn")]
+    private Vector3 spawnPosition;
+
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -64,6 +67,7 @@ public class PlayerController : MonoBehaviour
         pB2 = probe2.GetComponent<ProbeBehavior>();
         pB3 = probe3.GetComponent<ProbeBehavior>();
         jumpsRemaining = maxJumps;
+        spawnPosition = transform.position;
     }
 
     void Update()
@@ -162,6 +166,12 @@ public class PlayerController : MonoBehaviour
             StartDash();
         }
 
+        // Respawn
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            Respawn();
+        }
+
         if(Input.GetKeyDown(KeyCode.Alpha1))
         {
             bool newState = !pB1.lightObject.activeSelf;
@@ -216,7 +226,7 @@ public class PlayerController : MonoBehaviour
     void EndDash()
     {
         isDashing = false;
-        rb.gravityScale = 4f; // Set back to your normal gravity
+        rb.gravityScale = 10f; // Set back to your normal gravity
     }
     void WallJump()
     {
@@ -226,5 +236,17 @@ public class PlayerController : MonoBehaviour
             -wallDirection * wallJumpForceX,
             wallJumpForceY
         );
+    }
+
+    public void Respawn()
+    {
+        transform.position = spawnPosition;
+        rb.linearVelocity = Vector2.zero;
+        isDashing = false;
+        rb.gravityScale = 10f;
+        jumpsRemaining = maxJumps;
+        wallJumpLockCounter = 0f;
+        isWallSliding = false;
+        isWallJumping = false;
     }
 }
