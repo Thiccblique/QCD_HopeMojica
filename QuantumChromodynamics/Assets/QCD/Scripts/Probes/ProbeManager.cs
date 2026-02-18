@@ -76,7 +76,7 @@ public class ProbeManager : MonoBehaviour
                 timeOffset = Random.Range(0f, Mathf.PI * 2f)
             };
             probeDataList.Add(data);
-            Debug.Log($"Assigned {probes[i].name} to follow {childPositions[i].name}");
+            //Debug.Log($"Assigned {probes[i].name} to follow {childPositions[i].name}");
         }
     }
 

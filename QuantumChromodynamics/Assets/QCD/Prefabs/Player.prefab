@@ -221,15 +221,15 @@ MonoBehaviour:
   moveSpeed: 14
   jumpForce: 35
   groundCheck: {fileID: 8647166187465748782}
-  groundCheckRadius: 0.25
+  groundCheckRadius: 0.2
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
-  maxJumps: 1
+  maxJumps: 2
   wallCheck: {fileID: 8405488879318820216}
   wallCheckDistance: 0.6
-  wallJumpForceX: 16
-  wallJumpForceY: 14
+  wallJumpForceX: 20
+  wallJumpForceY: 26
   wallSlideSpeed: 1
   wallLayer:
     serializedVersion: 2
@@ -543,7 +543,7 @@ GameObject:
   m_Layer: 0
   m_Name: GroundCheck
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -556,8 +556,8 @@ Transform:
   m_GameObject: {fileID: 5107708236672866756}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.64, z: 0}
-  m_LocalScale: {x: 1, y: 0.33, z: 1}
+  m_LocalPosition: {x: 0, y: -0.45, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 540023820055335056}
@@ -596,7 +596,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0.43228525}
+  m_Offset: {x: 0, y: -0.0065215677}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -606,7 +606,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 0.13542947}
+  m_Size: {x: 1, y: 0.16650894}
   m_EdgeRadius: 0
 --- !u!1 &5206483896479161559
 GameObject:

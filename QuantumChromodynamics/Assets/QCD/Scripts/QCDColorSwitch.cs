@@ -12,12 +12,14 @@ public class QCDColorSwitch : MonoBehaviour
     public float activationDelay = 2f;
 
     [Header("Optional Feedback Sprite")]
-    [Tooltip("Circle or sprite that shows the required beam combination.")]
     public SpriteRenderer feedbackSprite;
 
     [Header("Target Sprite")]
-    [Tooltip("SpriteRenderer of the object to change color when activated.")]
     public SpriteRenderer targetSprite;
+
+    [Header("Dimension State (Temporary)")]
+    [Tooltip("Is the inverse dimension currently active?")]
+    public bool isInverseDimension;
 
     private LightFlags activeBeams = LightFlags.None;
     private float activationTimer = 0f;
@@ -27,15 +29,17 @@ public class QCDColorSwitch : MonoBehaviour
     public enum LightFlags
     {
         None = 0,
-        Red = 1 << 0,
-        Green = 1 << 1,
-        Blue = 1 << 2
+        Red = 1 << 0,  // 001
+        Green = 1 << 1,  // 010
+        Blue = 1 << 2   // 100
     }
 
     private void Update()
     {
+        LightFlags effectiveBeams = GetEffectiveBeams();
+
         // Only activate if exact required beams are present
-        if (activeBeams == requiredBeams && !isActive)
+        if (effectiveBeams == requiredBeams && !isActive)
         {
             activationTimer += Time.deltaTime;
 
@@ -45,9 +49,6 @@ public class QCDColorSwitch : MonoBehaviour
         else if (!isActive)
         {
             activationTimer = 0f;
-
-            //if (isActive)
-                //DeactivateObject();
         }
 
 #if UNITY_EDITOR
@@ -73,18 +74,34 @@ public class QCDColorSwitch : MonoBehaviour
                 if (entering) activeBeams |= LightFlags.Red;
                 else activeBeams &= ~LightFlags.Red;
                 break;
+
             case "GreenBeam":
                 if (entering) activeBeams |= LightFlags.Green;
                 else activeBeams &= ~LightFlags.Green;
                 break;
+
             case "BlueBeam":
                 if (entering) activeBeams |= LightFlags.Blue;
                 else activeBeams &= ~LightFlags.Blue;
                 break;
+
+            // Example dimension detection
+            case "InverseCrystal":
+                isInverseDimension = entering;
+                break;
+        }
+    }
+
+    // Inverse Dimension Check
+    private LightFlags GetEffectiveBeams()
+    {
+        if (isInverseDimension)
+        {
+            // Flip the 3 RGB bits (001,010,100)
+            return activeBeams ^ (LightFlags)0b111;
         }
 
-        // DEBUG
-        Debug.Log("Active Beams: " + activeBeams);
+        return activeBeams;
     }
 
     private void ActivateObject()
@@ -92,7 +109,6 @@ public class QCDColorSwitch : MonoBehaviour
         isActive = true;
         Debug.Log("Activated by exact beams: " + requiredBeams);
 
-        // Change the object's sprite color to match the required beams
         if (targetSprite != null)
             targetSprite.color = GetColorFromFlags(requiredBeams);
     }
@@ -100,15 +116,12 @@ public class QCDColorSwitch : MonoBehaviour
     private void DeactivateObject()
     {
         isActive = false;
-        Debug.Log("Deactivated or wrong beam combination");
 
-        // Optional: reset color when deactivated
         if (targetSprite != null)
             targetSprite.color = Color.white;
     }
 
 #if UNITY_EDITOR
-    // Shows the required beam combination on the feedback sprite in the Editor
     private void UpdateFeedbackColor()
     {
         if (feedbackSprite == null) return;
@@ -117,13 +130,14 @@ public class QCDColorSwitch : MonoBehaviour
     }
 #endif
 
-    // Helper function: converts a LightFlags combination to a Unity color
     private Color GetColorFromFlags(LightFlags flags)
     {
         Color col = Color.black;
-        if (flags.HasFlag(LightFlags.Red)) col.r = 1f;
-        if (flags.HasFlag(LightFlags.Green)) col.g = 1f;
-        if (flags.HasFlag(LightFlags.Blue)) col.b = 1f;
+
+        if ((flags & LightFlags.Red) != 0) col.r = 1f;
+        if ((flags & LightFlags.Green) != 0) col.g = 1f;
+        if ((flags & LightFlags.Blue) != 0) col.b = 1f;
+
         return col;
     }
 }

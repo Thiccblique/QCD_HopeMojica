@@ -17,6 +17,8 @@ public class PlayerController : MonoBehaviour
     private bool isGrounded;
     private int jumpsRemaining;
     public int maxJumps = 2;
+    private float jumpTakeOffCooldown = 0.20f;
+    private float jumpTakeOffCooldownReset = 0.20f;
 
     [Header("Wall Jump")]
     public Transform wallCheck;
@@ -72,7 +74,8 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        //Debug.Log(jumpsRemaining.ToString());
+        Debug.Log(jumpsRemaining.ToString());
+        Debug.Log(maxJumps.ToString());
 
         moveInput = Input.GetAxisRaw("Horizontal");
 
@@ -88,11 +91,6 @@ public class PlayerController : MonoBehaviour
             groundCheckRadius,
             groundLayer
         );
-
-        if (rb.linearVelocity.y > 0)
-        {
-            isGrounded = false;
-        }
 
         isTouchingWall = Physics2D.OverlapCircle(
             wallCheck.position,
@@ -137,13 +135,20 @@ public class PlayerController : MonoBehaviour
             {
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
                 jumpsRemaining--;
+                Debug.Log("Jump subtracted!");
             }
         }
 
         // Reset jumps when grounded
         if (isGrounded)
         {
-            jumpsRemaining = maxJumps;
+            jumpTakeOffCooldown -= Time.deltaTime;
+            if (jumpsRemaining != 2 && jumpTakeOffCooldown <= 0)
+            {
+                Debug.Log("Is Grounded!");
+                jumpsRemaining = maxJumps;
+                jumpTakeOffCooldown = jumpTakeOffCooldownReset;
+            }
         }
 
         if (isTouchingWall)

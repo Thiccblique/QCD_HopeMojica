@@ -3226,6 +3226,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5369790356477418164, guid: e113fa0d2bb031e40aa0af4178594b7e, type: 3}
+      propertyPath: wallJumpForceX
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5369790356477418164, guid: e113fa0d2bb031e40aa0af4178594b7e, type: 3}
+      propertyPath: wallJumpForceY
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
