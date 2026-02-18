@@ -1,0 +1,5934 @@
+fileFormatVersion: 2
+guid: fb9a6054d91a8cc4bb9764d2f712b47a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -598795722891167231
+    second: boxy animations3.0-Sheet-export 1_0
+  - first:
+      213: 5618823212364223757
+    second: boxy animations3.0-Sheet-export 1_1
+  - first:
+      213: 7205540197439274542
+    second: boxy animations3.0-Sheet-export 1_2
+  - first:
+      213: 7884404519107223659
+    second: boxy animations3.0-Sheet-export 1_3
+  - first:
+      213: 5892318089629806963
+    second: boxy animations3.0-Sheet-export 1_4
+  - first:
+      213: 4882032204247423723
+    second: boxy animations3.0-Sheet-export 1_5
+  - first:
+      213: 306377975011419195
+    second: boxy animations3.0-Sheet-export 1_6
+  - first:
+      213: 6834256727043323292
+    second: boxy animations3.0-Sheet-export 1_7
+  - first:
+      213: -1575093379543231018
+    second: boxy animations3.0-Sheet-export 1_8
+  - first:
+      213: 9084733441784713972
+    second: boxy animations3.0-Sheet-export 1_9
+  - first:
+      213: -7814722538024614370
+    second: boxy animations3.0-Sheet-export 1_10
+  - first:
+      213: 4193517047093442791
+    second: boxy animations3.0-Sheet-export 1_11
+  - first:
+      213: 6980558438478795840
+    second: boxy animations3.0-Sheet-export 1_12
+  - first:
+      213: -3561291596679378272
+    second: boxy animations3.0-Sheet-export 1_13
+  - first:
+      213: 8076422972275063378
+    second: boxy animations3.0-Sheet-export 1_14
+  - first:
+      213: 2756299283836114637
+    second: boxy animations3.0-Sheet-export 1_15
+  - first:
+      213: 8031626192381906359
+    second: boxy animations3.0-Sheet-export 1_16
+  - first:
+      213: -2305674780720058859
+    second: boxy animations3.0-Sheet-export 1_17
+  - first:
+      213: -2161549903989582161
+    second: boxy animations3.0-Sheet-export 1_18
+  - first:
+      213: 7119075603550569537
+    second: boxy animations3.0-Sheet-export 1_19
+  - first:
+      213: -1028514699069386499
+    second: boxy animations3.0-Sheet-export 1_20
+  - first:
+      213: 3132248195924067745
+    second: boxy animations3.0-Sheet-export 1_21
+  - first:
+      213: -5799545588097809401
+    second: boxy animations3.0-Sheet-export 1_22
+  - first:
+      213: -5133705141385463949
+    second: boxy animations3.0-Sheet-export 1_23
+  - first:
+      213: -5363572664747332376
+    second: boxy animations3.0-Sheet-export 1_24
+  - first:
+      213: 8022092636490239222
+    second: boxy animations3.0-Sheet-export 1_25
+  - first:
+      213: -3848383944235210971
+    second: boxy animations3.0-Sheet-export 1_26
+  - first:
+      213: -6324853729649150626
+    second: boxy animations3.0-Sheet-export 1_27
+  - first:
+      213: -9059377302540781798
+    second: boxy animations3.0-Sheet-export 1_28
+  - first:
+      213: -6498376287684837134
+    second: boxy animations3.0-Sheet-export 1_29
+  - first:
+      213: 339495525022952218
+    second: boxy animations3.0-Sheet-export 1_30
+  - first:
+      213: -7390999562378825916
+    second: boxy animations3.0-Sheet-export 1_31
+  - first:
+      213: 455853950572895460
+    second: boxy animations3.0-Sheet-export 1_32
+  - first:
+      213: -7614157819265528119
+    second: boxy animations3.0-Sheet-export 1_33
+  - first:
+      213: 3630844634289581230
+    second: boxy animations3.0-Sheet-export 1_34
+  - first:
+      213: 7785867890049397693
+    second: boxy animations3.0-Sheet-export 1_35
+  - first:
+      213: -285985213358607269
+    second: boxy animations3.0-Sheet-export 1_36
+  - first:
+      213: -1135004417393419712
+    second: boxy animations3.0-Sheet-export 1_37
+  - first:
+      213: -8604758560899515574
+    second: boxy animations3.0-Sheet-export 1_38
+  - first:
+      213: -8506460508665784730
+    second: boxy animations3.0-Sheet-export 1_39
+  - first:
+      213: 4563271724266620352
+    second: boxy animations3.0-Sheet-export 1_40
+  - first:
+      213: 8592298275720241257
+    second: boxy animations3.0-Sheet-export 1_41
+  - first:
+      213: -5131986261527651060
+    second: boxy animations3.0-Sheet-export 1_42
+  - first:
+      213: -8646429488742654035
+    second: boxy animations3.0-Sheet-export 1_43
+  - first:
+      213: 8899794579062324956
+    second: boxy animations3.0-Sheet-export 1_44
+  - first:
+      213: -7376821746634312638
+    second: boxy animations3.0-Sheet-export 1_45
+  - first:
+      213: -8895077046599124715
+    second: boxy animations3.0-Sheet-export 1_46
+  - first:
+      213: 4254570380833548675
+    second: boxy animations3.0-Sheet-export 1_47
+  - first:
+      213: -4849653658432278050
+    second: boxy animations3.0-Sheet-export 1_48
+  - first:
+      213: 26241868986418511
+    second: boxy animations3.0-Sheet-export 1_49
+  - first:
+      213: 9068673896317782780
+    second: boxy animations3.0-Sheet-export 1_50
+  - first:
+      213: 1394072662334539473
+    second: boxy animations3.0-Sheet-export 1_51
+  - first:
+      213: -8740251179862227462
+    second: boxy animations3.0-Sheet-export 1_52
+  - first:
+      213: 6898202188293824372
+    second: boxy animations3.0-Sheet-export 1_53
+  - first:
+      213: -7349407663424693173
+    second: boxy animations3.0-Sheet-export 1_54
+  - first:
+      213: -4170571967067284358
+    second: boxy animations3.0-Sheet-export 1_55
+  - first:
+      213: -4982038521322831761
+    second: boxy animations3.0-Sheet-export 1_56
+  - first:
+      213: -2770759254040986826
+    second: boxy animations3.0-Sheet-export 1_57
+  - first:
+      213: 4129223907360222528
+    second: boxy animations3.0-Sheet-export 1_58
+  - first:
+      213: 8430034489034950737
+    second: boxy animations3.0-Sheet-export 1_59
+  - first:
+      213: -267430475156915919
+    second: boxy animations3.0-Sheet-export 1_60
+  - first:
+      213: 726858035083118642
+    second: boxy animations3.0-Sheet-export 1_61
+  - first:
+      213: 8785635739220147739
+    second: boxy animations3.0-Sheet-export 1_62
+  - first:
+      213: -2860361867285329932
+    second: boxy animations3.0-Sheet-export 1_63
+  - first:
+      213: 194542477532056696
+    second: boxy animations3.0-Sheet-export 1_64
+  - first:
+      213: 163442074094501679
+    second: boxy animations3.0-Sheet-export 1_65
+  - first:
+      213: -2369402024679450548
+    second: boxy animations3.0-Sheet-export 1_66
+  - first:
+      213: 3077445966926947812
+    second: boxy animations3.0-Sheet-export 1_67
+  - first:
+      213: -405720043565580293
+    second: boxy animations3.0-Sheet-export 1_68
+  - first:
+      213: -8332097080812729425
+    second: boxy animations3.0-Sheet-export 1_69
+  - first:
+      213: 6961431605734173403
+    second: boxy animations3.0-Sheet-export 1_70
+  - first:
+      213: -244049372533849984
+    second: boxy animations3.0-Sheet-export 1_71
+  - first:
+      213: 7086866641199327752
+    second: boxy animations3.0-Sheet-export 1_72
+  - first:
+      213: -7046742082459740797
+    second: boxy animations3.0-Sheet-export 1_73
+  - first:
+      213: -703680942127416239
+    second: boxy animations3.0-Sheet-export 1_74
+  - first:
+      213: -3923291162725103634
+    second: boxy animations3.0-Sheet-export 1_75
+  - first:
+      213: -6472380586464111482
+    second: boxy animations3.0-Sheet-export 1_76
+  - first:
+      213: -6869649969037361836
+    second: boxy animations3.0-Sheet-export 1_77
+  - first:
+      213: -2384801400912923003
+    second: boxy animations3.0-Sheet-export 1_78
+  - first:
+      213: 4036314787495400562
+    second: boxy animations3.0-Sheet-export 1_79
+  - first:
+      213: -6452844597438406380
+    second: boxy animations3.0-Sheet-export 1_80
+  - first:
+      213: 1336953491360338791
+    second: boxy animations3.0-Sheet-export 1_81
+  - first:
+      213: -787703361219928909
+    second: boxy animations3.0-Sheet-export 1_82
+  - first:
+      213: -4437168773300413030
+    second: boxy animations3.0-Sheet-export 1_83
+  - first:
+      213: 677436540105208518
+    second: boxy animations3.0-Sheet-export 1_84
+  - first:
+      213: -2840058709786692493
+    second: boxy animations3.0-Sheet-export 1_85
+  - first:
+      213: 7118282752861234896
+    second: boxy animations3.0-Sheet-export 1_86
+  - first:
+      213: -7177267007138748038
+    second: boxy animations3.0-Sheet-export 1_87
+  - first:
+      213: -3995480471242373658
+    second: boxy animations3.0-Sheet-export 1_88
+  - first:
+      213: 3283115087437545090
+    second: boxy animations3.0-Sheet-export 1_89
+  - first:
+      213: -5507953321331314706
+    second: boxy animations3.0-Sheet-export 1_90
+  - first:
+      213: 5879947083560234788
+    second: boxy animations3.0-Sheet-export 1_91
+  - first:
+      213: -7187814741302206338
+    second: boxy animations3.0-Sheet-export 1_92
+  - first:
+      213: -5385469842885829476
+    second: boxy animations3.0-Sheet-export 1_93
+  - first:
+      213: 820472836587834145
+    second: boxy animations3.0-Sheet-export 1_94
+  - first:
+      213: -218706518588264089
+    second: boxy animations3.0-Sheet-export 1_95
+  - first:
+      213: 79633332316067391
+    second: boxy animations3.0-Sheet-export 1_96
+  - first:
+      213: -5899102543013371476
+    second: boxy animations3.0-Sheet-export 1_97
+  - first:
+      213: 6139127826731453763
+    second: boxy animations3.0-Sheet-export 1_98
+  - first:
+      213: -5079357752291943389
+    second: boxy animations3.0-Sheet-export 1_99
+  - first:
+      213: -2335322336475210021
+    second: boxy animations3.0-Sheet-export 1_100
+  - first:
+      213: 4383770046634976558
+    second: boxy animations3.0-Sheet-export 1_101
+  - first:
+      213: 8790615266584802519
+    second: boxy animations3.0-Sheet-export 1_102
+  - first:
+      213: -8730136334705962080
+    second: boxy animations3.0-Sheet-export 1_103
+  - first:
+      213: -1671380532182535858
+    second: boxy animations3.0-Sheet-export 1_104
+  - first:
+      213: -4510468217458510329
+    second: boxy animations3.0-Sheet-export 1_105
+  - first:
+      213: 8135999673373112866
+    second: boxy animations3.0-Sheet-export 1_106
+  - first:
+      213: -5240931040352274765
+    second: boxy animations3.0-Sheet-export 1_107
+  - first:
+      213: -199391912784489165
+    second: boxy animations3.0-Sheet-export 1_108
+  - first:
+      213: -5914618285509218227
+    second: boxy animations3.0-Sheet-export 1_109
+  - first:
+      213: 6844279296849214544
+    second: boxy animations3.0-Sheet-export 1_110
+  - first:
+      213: -697819737512184189
+    second: boxy animations3.0-Sheet-export 1_111
+  - first:
+      213: 6427627636579436099
+    second: boxy animations3.0-Sheet-export 1_112
+  - first:
+      213: -2249203330654766943
+    second: boxy animations3.0-Sheet-export 1_113
+  - first:
+      213: -3628861527074563371
+    second: boxy animations3.0-Sheet-export 1_114
+  - first:
+      213: 2675780033766925785
+    second: boxy animations3.0-Sheet-export 1_115
+  - first:
+      213: -2625967434955142411
+    second: boxy animations3.0-Sheet-export 1_116
+  - first:
+      213: 8638483044517461308
+    second: boxy animations3.0-Sheet-export 1_117
+  - first:
+      213: -2348800294160310138
+    second: boxy animations3.0-Sheet-export 1_118
+  - first:
+      213: -1579471086891860165
+    second: boxy animations3.0-Sheet-export 1_119
+  - first:
+      213: 6562740691849404001
+    second: boxy animations3.0-Sheet-export 1_120
+  - first:
+      213: 3457341352203468606
+    second: boxy animations3.0-Sheet-export 1_121
+  - first:
+      213: -6612312618778488145
+    second: boxy animations3.0-Sheet-export 1_122
+  - first:
+      213: 4930996916692149829
+    second: boxy animations3.0-Sheet-export 1_123
+  - first:
+      213: 901831454078117091
+    second: boxy animations3.0-Sheet-export 1_124
+  - first:
+      213: -7114535052325941673
+    second: boxy animations3.0-Sheet-export 1_125
+  - first:
+      213: -8692201659835327260
+    second: boxy animations3.0-Sheet-export 1_126
+  - first:
+      213: 6442824430415689035
+    second: boxy animations3.0-Sheet-export 1_127
+  - first:
+      213: -8703834005684196306
+    second: boxy animations3.0-Sheet-export 1_128
+  - first:
+      213: 9173720359058627323
+    second: boxy animations3.0-Sheet-export 1_129
+  - first:
+      213: -1519514836721707237
+    second: boxy animations3.0-Sheet-export 1_130
+  - first:
+      213: -976478735084620357
+    second: boxy animations3.0-Sheet-export 1_131
+  - first:
+      213: -1304865909287549951
+    second: boxy animations3.0-Sheet-export 1_132
+  - first:
+      213: 8095621283425592845
+    second: boxy animations3.0-Sheet-export 1_133
+  - first:
+      213: 7364886797649680560
+    second: boxy animations3.0-Sheet-export 1_134
+  - first:
+      213: -8942948455502588737
+    second: boxy animations3.0-Sheet-export 1_135
+  - first:
+      213: 5503778732935638428
+    second: boxy animations3.0-Sheet-export 1_136
+  - first:
+      213: 785033457010560719
+    second: boxy animations3.0-Sheet-export 1_137
+  - first:
+      213: 6768197294563784865
+    second: boxy animations3.0-Sheet-export 1_138
+  - first:
+      213: 5053477877200236637
+    second: boxy animations3.0-Sheet-export 1_139
+  - first:
+      213: -2129728976001576734
+    second: boxy animations3.0-Sheet-export 1_140
+  - first:
+      213: -4055363203670896019
+    second: boxy animations3.0-Sheet-export 1_141
+  - first:
+      213: -1040292768149164816
+    second: boxy animations3.0-Sheet-export 1_142
+  - first:
+      213: -1949787104662109357
+    second: boxy animations3.0-Sheet-export 1_143
+  - first:
+      213: -734154661216090115
+    second: boxy animations3.0-Sheet-export 1_144
+  - first:
+      213: -3440182901813946130
+    second: boxy animations3.0-Sheet-export 1_145
+  - first:
+      213: 240752505684803009
+    second: boxy animations3.0-Sheet-export 1_146
+  - first:
+      213: 429871200211257382
+    second: boxy animations3.0-Sheet-export 1_147
+  - first:
+      213: -8828503932958070386
+    second: boxy animations3.0-Sheet-export 1_148
+  - first:
+      213: -7325084153109958121
+    second: boxy animations3.0-Sheet-export 1_149
+  - first:
+      213: 1218504381784282550
+    second: boxy animations3.0-Sheet-export 1_150
+  - first:
+      213: -6145930833705632845
+    second: boxy animations3.0-Sheet-export 1_151
+  - first:
+      213: 6041138720242035783
+    second: boxy animations3.0-Sheet-export 1_152
+  - first:
+      213: 9106401765466552548
+    second: boxy animations3.0-Sheet-export 1_153
+  - first:
+      213: 6033240923333908899
+    second: boxy animations3.0-Sheet-export 1_154
+  - first:
+      213: 777017286009181683
+    second: boxy animations3.0-Sheet-export 1_155
+  - first:
+      213: 340356628995325143
+    second: boxy animations3.0-Sheet-export 1_156
+  - first:
+      213: 7530288153957083836
+    second: boxy animations3.0-Sheet-export 1_157
+  - first:
+      213: -5042539702350491005
+    second: boxy animations3.0-Sheet-export 1_158
+  - first:
+      213: -8984330486490425704
+    second: boxy animations3.0-Sheet-export 1_159
+  - first:
+      213: 2255441882471830911
+    second: boxy animations3.0-Sheet-export 1_160
+  - first:
+      213: 7163867463350967614
+    second: boxy animations3.0-Sheet-export 1_161
+  - first:
+      213: -8536332488804633062
+    second: boxy animations3.0-Sheet-export 1_162
+  - first:
+      213: 6299960672814062067
+    second: boxy animations3.0-Sheet-export 1_163
+  - first:
+      213: -1890507441100500006
+    second: boxy animations3.0-Sheet-export 1_164
+  - first:
+      213: -7001398374245675533
+    second: boxy animations3.0-Sheet-export 1_165
+  - first:
+      213: 7543257735871552506
+    second: boxy animations3.0-Sheet-export 1_166
+  - first:
+      213: -973140009443882811
+    second: boxy animations3.0-Sheet-export 1_167
+  - first:
+      213: 4672576145487742814
+    second: boxy animations3.0-Sheet-export 1_168
+  - first:
+      213: -109653980820669991
+    second: boxy animations3.0-Sheet-export 1_169
+  - first:
+      213: 3195485647411693847
+    second: boxy animations3.0-Sheet-export 1_170
+  - first:
+      213: -5174196190493531461
+    second: boxy animations3.0-Sheet-export 1_171
+  - first:
+      213: 1804588685338798675
+    second: boxy animations3.0-Sheet-export 1_172
+  - first:
+      213: -73639100960160786
+    second: boxy animations3.0-Sheet-export 1_173
+  - first:
+      213: -8801912064023339724
+    second: boxy animations3.0-Sheet-export 1_174
+  - first:
+      213: 4500615348284578645
+    second: boxy animations3.0-Sheet-export 1_175
+  - first:
+      213: -169720699254686123
+    second: boxy animations3.0-Sheet-export 1_176
+  - first:
+      213: -1237491048420652723
+    second: boxy animations3.0-Sheet-export 1_177
+  - first:
+      213: 1890834693733462317
+    second: boxy animations3.0-Sheet-export 1_178
+  - first:
+      213: 2493053312001417521
+    second: boxy animations3.0-Sheet-export 1_179
+  - first:
+      213: 4855486841922593518
+    second: boxy animations3.0-Sheet-export 1_180
+  - first:
+      213: -6755360699260539601
+    second: boxy animations3.0-Sheet-export 1_181
+  - first:
+      213: -5037653308803870090
+    second: boxy animations3.0-Sheet-export 1_182
+  - first:
+      213: 4863088783737240152
+    second: boxy animations3.0-Sheet-export 1_183
+  - first:
+      213: 3358767312281970527
+    second: boxy animations3.0-Sheet-export 1_184
+  - first:
+      213: -2671817440867520137
+    second: boxy animations3.0-Sheet-export 1_185
+  - first:
+      213: -2583801173391036298
+    second: boxy animations3.0-Sheet-export 1_186
+  - first:
+      213: -6435215250358338601
+    second: boxy animations3.0-Sheet-export 1_187
+  - first:
+      213: 7736525953026340119
+    second: boxy animations3.0-Sheet-export 1_188
+  - first:
+      213: -7745926206208388104
+    second: boxy animations3.0-Sheet-export 1_189
+  - first:
+      213: -4262970115265240484
+    second: boxy animations3.0-Sheet-export 1_190
+  - first:
+      213: -4537388333436514400
+    second: boxy animations3.0-Sheet-export 1_191
+  - first:
+      213: -4123590054465775382
+    second: boxy animations3.0-Sheet-export 1_192
+  - first:
+      213: 2072952692964982487
+    second: boxy animations3.0-Sheet-export 1_193
+  - first:
+      213: 36917169417800863
+    second: boxy animations3.0-Sheet-export 1_194
+  - first:
+      213: 5720197153691350339
+    second: boxy animations3.0-Sheet-export 1_195
+  - first:
+      213: -67649334570065175
+    second: boxy animations3.0-Sheet-export 1_196
+  - first:
+      213: 3787273856952943625
+    second: boxy animations3.0-Sheet-export 1_197
+  - first:
+      213: 611221535264863292
+    second: boxy animations3.0-Sheet-export 1_198
+  - first:
+      213: -2991151265471569682
+    second: boxy animations3.0-Sheet-export 1_199
+  - first:
+      213: 2419078683514587717
+    second: boxy animations3.0-Sheet-export 1_200
+  - first:
+      213: -8370516264580136868
+    second: boxy animations3.0-Sheet-export 1_201
+  - first:
+      213: 6184779490789509061
+    second: boxy animations3.0-Sheet-export 1_202
+  - first:
+      213: -5321610894971898271
+    second: boxy animations3.0-Sheet-export 1_203
+  - first:
+      213: -3693149702421060422
+    second: boxy animations3.0-Sheet-export 1_204
+  - first:
+      213: 7233064401099485427
+    second: boxy animations3.0-Sheet-export 1_205
+  - first:
+      213: 4219213961939410942
+    second: boxy animations3.0-Sheet-export 1_206
+  - first:
+      213: 3033396444672752362
+    second: boxy animations3.0-Sheet-export 1_207
+  - first:
+      213: 4413251579249364146
+    second: boxy animations3.0-Sheet-export 1_208
+  - first:
+      213: -3303385948193032530
+    second: boxy animations3.0-Sheet-export 1_209
+  - first:
+      213: -7487676807307682293
+    second: boxy animations3.0-Sheet-export 1_210
+  - first:
+      213: 9151835025257711300
+    second: boxy animations3.0-Sheet-export 1_211
+  - first:
+      213: 6160018183424974175
+    second: boxy animations3.0-Sheet-export 1_212
+  - first:
+      213: -2690171434263386304
+    second: boxy animations3.0-Sheet-export 1_213
+  - first:
+      213: -3766284202876441319
+    second: boxy animations3.0-Sheet-export 1_214
+  - first:
+      213: 3150370647721527342
+    second: boxy animations3.0-Sheet-export 1_215
+  - first:
+      213: 5311899488311203439
+    second: boxy animations3.0-Sheet-export 1_216
+  - first:
+      213: -7731986807639510692
+    second: boxy animations3.0-Sheet-export 1_217
+  - first:
+      213: 3571115670810760668
+    second: boxy animations3.0-Sheet-export 1_218
+  - first:
+      213: 6385357963764979762
+    second: boxy animations3.0-Sheet-export 1_219
+  - first:
+      213: -1941686199227976393
+    second: boxy animations3.0-Sheet-export 1_220
+  - first:
+      213: 6706704294447207472
+    second: boxy animations3.0-Sheet-export 1_221
+  - first:
+      213: -2813270000949673937
+    second: boxy animations3.0-Sheet-export 1_222
+  - first:
+      213: 2404470665523592496
+    second: boxy animations3.0-Sheet-export 1_223
+  - first:
+      213: -8059893022662373134
+    second: boxy animations3.0-Sheet-export 1_224
+  - first:
+      213: -757876290945074095
+    second: boxy animations3.0-Sheet-export 1_225
+  - first:
+      213: 2844407466859866193
+    second: boxy animations3.0-Sheet-export 1_226
+  - first:
+      213: 7633505464374949890
+    second: boxy animations3.0-Sheet-export 1_227
+  - first:
+      213: -4708863287352217973
+    second: boxy animations3.0-Sheet-export 1_228
+  - first:
+      213: 2735256603940859040
+    second: boxy animations3.0-Sheet-export 1_229
+  - first:
+      213: 73635790482213353
+    second: boxy animations3.0-Sheet-export 1_230
+  - first:
+      213: -9098535547038760491
+    second: boxy animations3.0-Sheet-export 1_231
+  - first:
+      213: 1321440103113354664
+    second: boxy animations3.0-Sheet-export 1_232
+  - first:
+      213: -8945905265596636911
+    second: boxy animations3.0-Sheet-export 1_233
+  - first:
+      213: 6055010550189246489
+    second: boxy animations3.0-Sheet-export 1_234
+  - first:
+      213: 1327559327415226352
+    second: boxy animations3.0-Sheet-export 1_235
+  - first:
+      213: -7406645690662799643
+    second: boxy animations3.0-Sheet-export 1_236
+  - first:
+      213: -4706678792712249002
+    second: boxy animations3.0-Sheet-export 1_237
+  - first:
+      213: 8715201589651891786
+    second: boxy animations3.0-Sheet-export 1_238
+  - first:
+      213: 600747925571428362
+    second: boxy animations3.0-Sheet-export 1_239
+  - first:
+      213: -1117430440380290000
+    second: boxy animations3.0-Sheet-export 1_240
+  - first:
+      213: 5387505317131104904
+    second: boxy animations3.0-Sheet-export 1_241
+  - first:
+      213: -4050693826042154241
+    second: boxy animations3.0-Sheet-export 1_242
+  - first:
+      213: -8633211088610764817
+    second: boxy animations3.0-Sheet-export 1_243
+  - first:
+      213: 6134210192767501169
+    second: boxy animations3.0-Sheet-export 1_244
+  - first:
+      213: 6717275989570145218
+    second: boxy animations3.0-Sheet-export 1_245
+  - first:
+      213: -8960369663419970603
+    second: boxy animations3.0-Sheet-export 1_246
+  - first:
+      213: -7053884811575043531
+    second: boxy animations3.0-Sheet-export 1_247
+  - first:
+      213: -1924620457419793840
+    second: boxy animations3.0-Sheet-export 1_248
+  - first:
+      213: -1275553336237194920
+    second: boxy animations3.0-Sheet-export 1_249
+  - first:
+      213: 6652508796472879123
+    second: boxy animations3.0-Sheet-export 1_250
+  - first:
+      213: 7701468398441440194
+    second: boxy animations3.0-Sheet-export 1_251
+  - first:
+      213: -5081625748318672290
+    second: boxy animations3.0-Sheet-export 1_252
+  - first:
+      213: 2259476161777671456
+    second: boxy animations3.0-Sheet-export 1_253
+  - first:
+      213: 851621723793344046
+    second: boxy animations3.0-Sheet-export 1_254
+  - first:
+      213: 43856164976658468
+    second: boxy animations3.0-Sheet-export 1_255
+  - first:
+      213: -1220601159677694075
+    second: boxy animations3.0-Sheet-export 1_256
+  - first:
+      213: -9113143080658487077
+    second: boxy animations3.0-Sheet-export 1_257
+  - first:
+      213: 3777539228226805395
+    second: boxy animations3.0-Sheet-export 1_258
+  - first:
+      213: 4460013387390671744
+    second: boxy animations3.0-Sheet-export 1_259
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_3
+      rect:
+        serializedVersion: 2
+        x: 7430
+        y: 56
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b60eed203280b6d60800000000000000
+      internalID: 7884404519107223659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_4
+      rect:
+        serializedVersion: 2
+        x: 7515
+        y: 56
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3713efb6518b5c150800000000000000
+      internalID: 5892318089629806963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_5
+      rect:
+        serializedVersion: 2
+        x: 7604
+        y: 55
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea5f247c6670c340800000000000000
+      internalID: 4882032204247423723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_6
+      rect:
+        serializedVersion: 2
+        x: 8195
+        y: 56
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b342f8f1529704400800000000000000
+      internalID: 306377975011419195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_7
+      rect:
+        serializedVersion: 2
+        x: 8280
+        y: 56
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95bd37a84828de50800000000000000
+      internalID: 6834256727043323292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_8
+      rect:
+        serializedVersion: 2
+        x: 8365
+        y: 58
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d59140aae4242ae0800000000000000
+      internalID: -1575093379543231018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_9
+      rect:
+        serializedVersion: 2
+        x: 8433
+        y: 29
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f290bcaee4731e70800000000000000
+      internalID: 9084733441784713972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_10
+      rect:
+        serializedVersion: 2
+        x: 8528
+        y: 29
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e16cdce71478c8390800000000000000
+      internalID: -7814722538024614370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_11
+      rect:
+        serializedVersion: 2
+        x: 8623
+        y: 62
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8bc8f398d523a30800000000000000
+      internalID: 4193517047093442791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_12
+      rect:
+        serializedVersion: 2
+        x: 8698
+        y: 29
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 044526b4aecefd060800000000000000
+      internalID: 6980558438478795840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_13
+      rect:
+        serializedVersion: 2
+        x: 8784
+        y: 29
+        width: 21
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa875e4920c39ec0800000000000000
+      internalID: -3561291596679378272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_14
+      rect:
+        serializedVersion: 2
+        x: 9038
+        y: 28
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a724e07e7351070800000000000000
+      internalID: 8076422972275063378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_15
+      rect:
+        serializedVersion: 2
+        x: 9125
+        y: 28
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc617bb5897504620800000000000000
+      internalID: 2756299283836114637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_16
+      rect:
+        serializedVersion: 2
+        x: 9214
+        y: 30
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bd85a5f771167f60800000000000000
+      internalID: 8031626192381906359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_17
+      rect:
+        serializedVersion: 2
+        x: 9301
+        y: 36
+        width: 430
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51eaa9fb0099000e0800000000000000
+      internalID: -2305674780720058859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_18
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 33
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa6db6090d1a002e0800000000000000
+      internalID: -2161549903989582161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_19
+      rect:
+        serializedVersion: 2
+        x: 2837
+        y: 28
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14408cefa890cc260800000000000000
+      internalID: 7119075603550569537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_20
+      rect:
+        serializedVersion: 2
+        x: 2921
+        y: 28
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df093bb945bf9b1f0800000000000000
+      internalID: -1028514699069386499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_21
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 33
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a5896a832bf77b20800000000000000
+      internalID: 3132248195924067745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_22
+      rect:
+        serializedVersion: 2
+        x: 3257
+        y: 40
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7040fb2d300e38fa0800000000000000
+      internalID: -5799545588097809401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_23
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 34
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3777f1a9f5a61c8b0800000000000000
+      internalID: -5133705141385463949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_24
+      rect:
+        serializedVersion: 2
+        x: 3603
+        y: 40
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ec6dbe2413c095b0800000000000000
+      internalID: -5363572664747332376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_25
+      rect:
+        serializedVersion: 2
+        x: 3684
+        y: 34
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc074100c2345f60800000000000000
+      internalID: 8022092636490239222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_26
+      rect:
+        serializedVersion: 2
+        x: 5046
+        y: 35
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5272b8c313bc79ac0800000000000000
+      internalID: -3848383944235210971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_27
+      rect:
+        serializedVersion: 2
+        x: 5129
+        y: 29
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5535fb1b0b9938a0800000000000000
+      internalID: -6324853729649150626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_28
+      rect:
+        serializedVersion: 2
+        x: 5214
+        y: 29
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a17f1db8750a64280800000000000000
+      internalID: -9059377302540781798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_29
+      rect:
+        serializedVersion: 2
+        x: 5299
+        y: 29
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f049bb323121d5a0800000000000000
+      internalID: -6498376287684837134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_30
+      rect:
+        serializedVersion: 2
+        x: 6321
+        y: 30
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1be3db916126b400800000000000000
+      internalID: 339495525022952218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_31
+      rect:
+        serializedVersion: 2
+        x: 6406
+        y: 32
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44fa755ae05ed6990800000000000000
+      internalID: -7390999562378825916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_32
+      rect:
+        serializedVersion: 2
+        x: 6491
+        y: 30
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec1b59b0c4835600800000000000000
+      internalID: 455853950572895460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_33
+      rect:
+        serializedVersion: 2
+        x: 6576
+        y: 53
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce4aee0ec3155690800000000000000
+      internalID: -7614157819265528119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_34
+      rect:
+        serializedVersion: 2
+        x: 6576
+        y: 32
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaca67535f9536230800000000000000
+      internalID: 3630844634289581230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_35
+      rect:
+        serializedVersion: 2
+        x: 6661
+        y: 32
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db3b38e3895fc0c60800000000000000
+      internalID: 7785867890049397693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_36
+      rect:
+        serializedVersion: 2
+        x: 6746
+        y: 30
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b54feb2b6f9f70cf0800000000000000
+      internalID: -285985213358607269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_37
+      rect:
+        serializedVersion: 2
+        x: 6831
+        y: 32
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a14c2fe77af30f0800000000000000
+      internalID: -1135004417393419712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_38
+      rect:
+        serializedVersion: 2
+        x: 6916
+        y: 32
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b3597cda1c59880800000000000000
+      internalID: -8604758560899515574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_39
+      rect:
+        serializedVersion: 2
+        x: 7001
+        y: 30
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666561d8c3bf2f980800000000000000
+      internalID: -8506460508665784730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_40
+      rect:
+        serializedVersion: 2
+        x: 7086
+        y: 53
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c50f7ab47ff35f30800000000000000
+      internalID: 4563271724266620352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_41
+      rect:
+        serializedVersion: 2
+        x: 7086
+        y: 32
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 960a18002c9fd3770800000000000000
+      internalID: 8592298275720241257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_42
+      rect:
+        serializedVersion: 2
+        x: 7171
+        y: 32
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d95718fa587c8b0800000000000000
+      internalID: -5131986261527651060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_43
+      rect:
+        serializedVersion: 2
+        x: 7256
+        y: 30
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf1804d036b10880800000000000000
+      internalID: -8646429488742654035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_44
+      rect:
+        serializedVersion: 2
+        x: 7501
+        y: 29
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdef4fa340c628b70800000000000000
+      internalID: 8899794579062324956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_45
+      rect:
+        serializedVersion: 2
+        x: 7533
+        y: 56
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2443c7c94b340a990800000000000000
+      internalID: -7376821746634312638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_46
+      rect:
+        serializedVersion: 2
+        x: 7585
+        y: 29
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5197ab3ed865e8480800000000000000
+      internalID: -8895077046599124715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_47
+      rect:
+        serializedVersion: 2
+        x: 7679
+        y: 29
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3896b7d38354b0b30800000000000000
+      internalID: 4254570380833548675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_48
+      rect:
+        serializedVersion: 2
+        x: 7849
+        y: 29
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed1787531b192bcb0800000000000000
+      internalID: -4849653658432278050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_49
+      rect:
+        serializedVersion: 2
+        x: 8266
+        y: 29
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f458d2f37da3d5000800000000000000
+      internalID: 26241868986418511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_50
+      rect:
+        serializedVersion: 2
+        x: 8298
+        y: 56
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa01ed5cd66add70800000000000000
+      internalID: 9068673896317782780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_51
+      rect:
+        serializedVersion: 2
+        x: 8350
+        y: 29
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6888543bdb85310800000000000000
+      internalID: 1394072662334539473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_52
+      rect:
+        serializedVersion: 2
+        x: 8614
+        y: 29
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af58f981cd364b680800000000000000
+      internalID: -8740251179862227462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_53
+      rect:
+        serializedVersion: 2
+        x: 8950
+        y: 28
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f531e87565bbf50800000000000000
+      internalID: 6898202188293824372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_54
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 30
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c99004ba8a10a90800000000000000
+      internalID: -7349407663424693173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_55
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 21
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c90c084e62f16c0800000000000000
+      internalID: -4170571967067284358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_56
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 23
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f608d3f5c5e3cdab0800000000000000
+      internalID: -4982038521322831761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_57
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 22
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63bb2c873294c89d0800000000000000
+      internalID: -2770759254040986826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_58
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 29
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04da1442443fd4930800000000000000
+      internalID: 4129223907360222528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_59
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 21
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158483b14bf7df470800000000000000
+      internalID: 8430034489034950737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_60
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 13
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13978265665e94cf0800000000000000
+      internalID: -267430475156915919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_61
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 21
+        width: 47
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23884472881561a00800000000000000
+      internalID: 726858035083118642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_62
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 15
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e71321829dce970800000000000000
+      internalID: 8785635739220147739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_63
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 21
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7826b5904fd48d0800000000000000
+      internalID: -2860361867285329932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_64
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 21
+        width: 57
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87cc5034a5723b200800000000000000
+      internalID: 194542477532056696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_65
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 20
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f71cf43b9a44200800000000000000
+      internalID: 163442074094501679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_68
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 28
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bff740d15c79e5af0800000000000000
+      internalID: -405720043565580293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_69
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 28
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fab8610b9d17e5c80800000000000000
+      internalID: -8332097080812729425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_70
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 28
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda66f38929fb9060800000000000000
+      internalID: 6961431605734173403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_71
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 28
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08086728366fc9cf0800000000000000
+      internalID: -244049372533849984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_72
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 28
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a604f89ab995260800000000000000
+      internalID: 7086866641199327752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_73
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 28
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385d0374961f43e90800000000000000
+      internalID: -7046742082459740797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_74
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 28
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c784159e50c36f0800000000000000
+      internalID: -703680942127416239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_75
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 28
+        width: 41
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee74757597bad89c0800000000000000
+      internalID: -3923291162725103634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_76
+      rect:
+        serializedVersion: 2
+        x: 2241
+        y: 28
+        width: 44
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6841ca4162c7d26a0800000000000000
+      internalID: -6472380586464111482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_77
+      rect:
+        serializedVersion: 2
+        x: 2328
+        y: 28
+        width: 44
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d314800c91aa0a0800000000000000
+      internalID: -6869649969037361836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_78
+      rect:
+        serializedVersion: 2
+        x: 2412
+        y: 28
+        width: 45
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5863bb6d2cb77eed0800000000000000
+      internalID: -2384801400912923003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_79
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 28
+        width: 47
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 274d156f9eed30830800000000000000
+      internalID: 4036314787495400562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_80
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 28
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411a2eaf604e276a0800000000000000
+      internalID: -6452844597438406380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_81
+      rect:
+        serializedVersion: 2
+        x: 2668
+        y: 28
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76350cded10dd8210800000000000000
+      internalID: 1336953491360338791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_82
+      rect:
+        serializedVersion: 2
+        x: 2696
+        y: 38
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bcda1667f38115f0800000000000000
+      internalID: -787703361219928909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_83
+      rect:
+        serializedVersion: 2
+        x: 2751
+        y: 28
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9d19f282820c62c0800000000000000
+      internalID: -4437168773300413030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_84
+      rect:
+        serializedVersion: 2
+        x: 2779
+        y: 38
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c237daa1fcb66900800000000000000
+      internalID: 677436540105208518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_85
+      rect:
+        serializedVersion: 2
+        x: 3093
+        y: 28
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374f8e596a51698d0800000000000000
+      internalID: -2840058709786692493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_86
+      rect:
+        serializedVersion: 2
+        x: 3178
+        y: 28
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6651f037839c260800000000000000
+      internalID: 7118282752861234896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_87
+      rect:
+        serializedVersion: 2
+        x: 3433
+        y: 28
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a792d5d0fa9356c90800000000000000
+      internalID: -7177267007138748038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_88
+      rect:
+        serializedVersion: 2
+        x: 3515
+        y: 29
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e5869c2ea33d88c0800000000000000
+      internalID: -3995480471242373658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_89
+      rect:
+        serializedVersion: 2
+        x: 3597
+        y: 42
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28eb07ff6c7ff8d20800000000000000
+      internalID: 3283115087437545090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_90
+      rect:
+        serializedVersion: 2
+        x: 3622
+        y: 43
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef2d9af2a1df83b0800000000000000
+      internalID: -5507953321331314706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_91
+      rect:
+        serializedVersion: 2
+        x: 3770
+        y: 30
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42fa3bd18b4c99150800000000000000
+      internalID: 5879947083560234788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_92
+      rect:
+        serializedVersion: 2
+        x: 3855
+        y: 31
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e70ad515390cf3c90800000000000000
+      internalID: -7187814741302206338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_93
+      rect:
+        serializedVersion: 2
+        x: 3942
+        y: 28
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9c163a16b7f245b0800000000000000
+      internalID: -5385469842885829476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_94
+      rect:
+        serializedVersion: 2
+        x: 4033
+        y: 28
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12bcca4a2b7e26b00800000000000000
+      internalID: 820472836587834145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_95
+      rect:
+        serializedVersion: 2
+        x: 4111
+        y: 28
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761fb71849ff6fcf0800000000000000
+      internalID: -218706518588264089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_96
+      rect:
+        serializedVersion: 2
+        x: 4196
+        y: 32
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36daf4081aea1100800000000000000
+      internalID: 79633332316067391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_97
+      rect:
+        serializedVersion: 2
+        x: 4285
+        y: 28
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca1a51eed7d222ea0800000000000000
+      internalID: -5899102543013371476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_98
+      rect:
+        serializedVersion: 2
+        x: 4365
+        y: 30
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d4b0f5b30923550800000000000000
+      internalID: 6139127826731453763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_99
+      rect:
+        serializedVersion: 2
+        x: 4450
+        y: 30
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c138f290f7289b0800000000000000
+      internalID: -5079357752291943389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_100
+      rect:
+        serializedVersion: 2
+        x: 4535
+        y: 31
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde1c5245b4479fd0800000000000000
+      internalID: -2335322336475210021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_101
+      rect:
+        serializedVersion: 2
+        x: 4619
+        y: 28
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25eca691a746dc30800000000000000
+      internalID: 4383770046634976558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_102
+      rect:
+        serializedVersion: 2
+        x: 4704
+        y: 28
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4b9e1a20a8ef970800000000000000
+      internalID: 8790615266584802519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_103
+      rect:
+        serializedVersion: 2
+        x: 4791
+        y: 28
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a3de11024358d680800000000000000
+      internalID: -8730136334705962080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_104
+      rect:
+        serializedVersion: 2
+        x: 4876
+        y: 28
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e41b1c6e2401ec8e0800000000000000
+      internalID: -1671380532182535858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_105
+      rect:
+        serializedVersion: 2
+        x: 4961
+        y: 28
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70632bfbd099761c0800000000000000
+      internalID: -4510468217458510329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_106
+      rect:
+        serializedVersion: 2
+        x: 5384
+        y: 31
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22a3918b890e8e070800000000000000
+      internalID: 8135999673373112866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_107
+      rect:
+        serializedVersion: 2
+        x: 5470
+        y: 30
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6fb778cf87447b0800000000000000
+      internalID: -5240931040352274765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_108
+      rect:
+        serializedVersion: 2
+        x: 5554
+        y: 31
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335156b9c1e9b3df0800000000000000
+      internalID: -199391912784489165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_109
+      rect:
+        serializedVersion: 2
+        x: 5635
+        y: 28
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d40713e910e0beda0800000000000000
+      internalID: -5914618285509218227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_110
+      rect:
+        serializedVersion: 2
+        x: 5719
+        y: 28
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05cf14802c3cbfe50800000000000000
+      internalID: 6844279296849214544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_111
+      rect:
+        serializedVersion: 2
+        x: 5804
+        y: 28
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 386745c55a8d056f0800000000000000
+      internalID: -697819737512184189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_112
+      rect:
+        serializedVersion: 2
+        x: 5890
+        y: 28
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3460dcac745833950800000000000000
+      internalID: 6427627636579436099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_113
+      rect:
+        serializedVersion: 2
+        x: 5974
+        y: 28
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a872b0dc7939c0e0800000000000000
+      internalID: -2249203330654766943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_114
+      rect:
+        serializedVersion: 2
+        x: 6059
+        y: 28
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da93abeaa1b3adc0800000000000000
+      internalID: -3628861527074563371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_115
+      rect:
+        serializedVersion: 2
+        x: 6147
+        y: 28
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5a2c983c7422520800000000000000
+      internalID: 2675780033766925785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_116
+      rect:
+        serializedVersion: 2
+        x: 6236
+        y: 31
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa41c7e780be8bd0800000000000000
+      internalID: -2625967434955142411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_117
+      rect:
+        serializedVersion: 2
+        x: 7338
+        y: 29
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3db2b27f8e02e770800000000000000
+      internalID: 8638483044517461308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_118
+      rect:
+        serializedVersion: 2
+        x: 7420
+        y: 29
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680ed32b392676fd0800000000000000
+      internalID: -2348800294160310138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_119
+      rect:
+        serializedVersion: 2
+        x: 7531
+        y: 36
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f7fc43a67941ae0800000000000000
+      internalID: -1579471086891860165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_120
+      rect:
+        serializedVersion: 2
+        x: 7763
+        y: 29
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e5faa63e9831b50800000000000000
+      internalID: 6562740691849404001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_121
+      rect:
+        serializedVersion: 2
+        x: 7933
+        y: 29
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f3b5d54a1faff20800000000000000
+      internalID: 3457341352203468606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_122
+      rect:
+        serializedVersion: 2
+        x: 8022
+        y: 28
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa210ede4b85c34a0800000000000000
+      internalID: -6612312618778488145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_123
+      rect:
+        serializedVersion: 2
+        x: 8105
+        y: 30
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5466bf7f19b6e6440800000000000000
+      internalID: 4930996916692149829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_124
+      rect:
+        serializedVersion: 2
+        x: 8185
+        y: 29
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4a99bede2f38c00800000000000000
+      internalID: 901831454078117091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_125
+      rect:
+        serializedVersion: 2
+        x: 8296
+        y: 36
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e0c087018144d90800000000000000
+      internalID: -7114535052325941673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_126
+      rect:
+        serializedVersion: 2
+        x: 8868
+        y: 29
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec5475c4a81f5780800000000000000
+      internalID: -8692201659835327260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_127
+      rect:
+        serializedVersion: 2
+        x: 9218
+        y: 30
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45b2251fa2896950800000000000000
+      internalID: 6442824430415689035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_128
+      rect:
+        serializedVersion: 2
+        x: 9304
+        y: 39
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c6a333615c53780800000000000000
+      internalID: -8703834005684196306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_133
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 32
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06aca23aac695070800000000000000
+      internalID: 8095621283425592845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_134
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 33
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b89fd88585553660800000000000000
+      internalID: 7364886797649680560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_135
+      rect:
+        serializedVersion: 2
+        x: 2689
+        y: 34
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb4d321f2c344e380800000000000000
+      internalID: -8942948455502588737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_136
+      rect:
+        serializedVersion: 2
+        x: 2698
+        y: 32
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d6afae899516c40800000000000000
+      internalID: 5503778732935638428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_137
+      rect:
+        serializedVersion: 2
+        x: 2774
+        y: 32
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce49e515cff4ea00800000000000000
+      internalID: 785033457010560719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_138
+      rect:
+        serializedVersion: 2
+        x: 3258
+        y: 33
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8fb3874977ded50800000000000000
+      internalID: 6768197294563784865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_139
+      rect:
+        serializedVersion: 2
+        x: 3281
+        y: 33
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50b0d6da5f812640800000000000000
+      internalID: 5053477877200236637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_140
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 33
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0d195b7cea172e0800000000000000
+      internalID: -2129728976001576734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_141
+      rect:
+        serializedVersion: 2
+        x: 3621
+        y: 33
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d62910a07a478b7c0800000000000000
+      internalID: -4055363203670896019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_142
+      rect:
+        serializedVersion: 2
+        x: 3935
+        y: 33
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fcaf043d332091f0800000000000000
+      internalID: -1040292768149164816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_143
+      rect:
+        serializedVersion: 2
+        x: 4025
+        y: 33
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3534afe65f6f0f4e0800000000000000
+      internalID: -1949787104662109357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_144
+      rect:
+        serializedVersion: 2
+        x: 5044
+        y: 31
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df78400b932cfc5f0800000000000000
+      internalID: -734154661216090115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_145
+      rect:
+        serializedVersion: 2
+        x: 5066
+        y: 31
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8d10fa0e30240d0800000000000000
+      internalID: -3440182901813946130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_146
+      rect:
+        serializedVersion: 2
+        x: 6406
+        y: 29
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cdb02cd023575300800000000000000
+      internalID: 240752505684803009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_147
+      rect:
+        serializedVersion: 2
+        x: 6576
+        y: 30
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62843cb349537f500800000000000000
+      internalID: 429871200211257382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_148
+      rect:
+        serializedVersion: 2
+        x: 6661
+        y: 29
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8925e9c27ada7580800000000000000
+      internalID: -8828503932958070386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_149
+      rect:
+        serializedVersion: 2
+        x: 6831
+        y: 30
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 712b900d5c2185a90800000000000000
+      internalID: -7325084153109958121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_150
+      rect:
+        serializedVersion: 2
+        x: 6916
+        y: 29
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b55281874ff8e010800000000000000
+      internalID: 1218504381784282550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_151
+      rect:
+        serializedVersion: 2
+        x: 7086
+        y: 30
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bbfad2287445baa0800000000000000
+      internalID: -6145930833705632845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_152
+      rect:
+        serializedVersion: 2
+        x: 7171
+        y: 29
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c62e2a8af66d350800000000000000
+      internalID: 6041138720242035783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_153
+      rect:
+        serializedVersion: 2
+        x: 7701
+        y: 36
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8bf9c6820706e70800000000000000
+      internalID: 9106401765466552548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_154
+      rect:
+        serializedVersion: 2
+        x: 7871
+        y: 36
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a9daaf77a06ab350800000000000000
+      internalID: 6033240923333908899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_155
+      rect:
+        serializedVersion: 2
+        x: 8466
+        y: 36
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f55ae4da1588ca00800000000000000
+      internalID: 777017286009181683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_156
+      rect:
+        serializedVersion: 2
+        x: 8636
+        y: 36
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc37300d8039b400800000000000000
+      internalID: 340356628995325143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_157
+      rect:
+        serializedVersion: 2
+        x: 8806
+        y: 36
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbaa1f8cd25f08860800000000000000
+      internalID: 7530288153957083836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_158
+      rect:
+        serializedVersion: 2
+        x: 9304
+        y: 34
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38258937bdc450ab0800000000000000
+      internalID: -5042539702350491005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_159
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 27
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8969608060f315380800000000000000
+      internalID: -8984330486490425704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_160
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 27
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7595483170fc4f10800000000000000
+      internalID: 2255441882471830911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_170
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 28
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71945d21445a85c20800000000000000
+      internalID: 3195485647411693847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_171
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 28
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb224739aff8138b0800000000000000
+      internalID: -5174196190493531461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_197
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 28
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 904cdcec1891f8430800000000000000
+      internalID: 3787273856952943625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_198
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 28
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34f7887fbe7b7800800000000000000
+      internalID: 611221535264863292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_199
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 28
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee06b1895cb4d76d0800000000000000
+      internalID: -2991151265471569682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_200
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 28
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a4b9eee3b429120800000000000000
+      internalID: 2419078683514587717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_201
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 28
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5042176ec3f5db80800000000000000
+      internalID: -8370516264580136868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_202
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 28
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c741a2bd20c4d550800000000000000
+      internalID: 6184779490789509061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_203
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 28
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 166f95c0617d526b0800000000000000
+      internalID: -5321610894971898271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_204
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 28
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab46adca9eb4fbcc0800000000000000
+      internalID: -3693149702421060422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_205
+      rect:
+        serializedVersion: 2
+        x: 3003
+        y: 28
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f0fe0910c1016460800000000000000
+      internalID: 7233064401099485427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_206
+      rect:
+        serializedVersion: 2
+        x: 3021
+        y: 28
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff54c87eb8ad8a30800000000000000
+      internalID: 4219213961939410942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_207
+      rect:
+        serializedVersion: 2
+        x: 3518
+        y: 28
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeaf6abaef9c81a20800000000000000
+      internalID: 3033396444672752362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_208
+      rect:
+        serializedVersion: 2
+        x: 3776
+        y: 28
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bc079dcde40f3d30800000000000000
+      internalID: 4413251579249364146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_209
+      rect:
+        serializedVersion: 2
+        x: 3784
+        y: 28
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6ffe17bf30822d0800000000000000
+      internalID: -3303385948193032530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_210
+      rect:
+        serializedVersion: 2
+        x: 3860
+        y: 28
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e9e7b7d9d661890800000000000000
+      internalID: -7487676807307682293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_211
+      rect:
+        serializedVersion: 2
+        x: 3870
+        y: 28
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c6c67b8779d10f70800000000000000
+      internalID: 9151835025257711300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_212
+      rect:
+        serializedVersion: 2
+        x: 4203
+        y: 28
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d1ef096e7cc7550800000000000000
+      internalID: 6160018183424974175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_213
+      rect:
+        serializedVersion: 2
+        x: 4212
+        y: 28
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047e3db65579aaad0800000000000000
+      internalID: -2690171434263386304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_214
+      rect:
+        serializedVersion: 2
+        x: 4371
+        y: 28
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d626cd8787bbbc0800000000000000
+      internalID: -3766284202876441319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_215
+      rect:
+        serializedVersion: 2
+        x: 4379
+        y: 28
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e284248a96d58bb20800000000000000
+      internalID: 3150370647721527342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_216
+      rect:
+        serializedVersion: 2
+        x: 4456
+        y: 28
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f665e53e078a7b940800000000000000
+      internalID: 5311899488311203439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_217
+      rect:
+        serializedVersion: 2
+        x: 4464
+        y: 28
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51f3aad6f672b490800000000000000
+      internalID: -7731986807639510692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_218
+      rect:
+        serializedVersion: 2
+        x: 4540
+        y: 28
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd5918238c62f8130800000000000000
+      internalID: 3571115670810760668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_219
+      rect:
+        serializedVersion: 2
+        x: 4550
+        y: 28
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2385ce9ac395d9850800000000000000
+      internalID: 6385357963764979762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_220
+      rect:
+        serializedVersion: 2
+        x: 5050
+        y: 28
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 735fcb570bebd05e0800000000000000
+      internalID: -1941686199227976393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_221
+      rect:
+        serializedVersion: 2
+        x: 5060
+        y: 28
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 034dc1ca500031d50800000000000000
+      internalID: 6706704294447207472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_222
+      rect:
+        serializedVersion: 2
+        x: 5390
+        y: 28
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20c128e6d145f8d0800000000000000
+      internalID: -2813270000949673937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_223
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 28
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d7163b4556e5120800000000000000
+      internalID: 2404470665523592496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_224
+      rect:
+        serializedVersion: 2
+        x: 5476
+        y: 28
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f05f80cff1852090800000000000000
+      internalID: -8059893022662373134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_225
+      rect:
+        serializedVersion: 2
+        x: 5484
+        y: 28
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c378e578b7b75f0800000000000000
+      internalID: -757876290945074095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_226
+      rect:
+        serializedVersion: 2
+        x: 5563
+        y: 28
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158a6a2558d597720800000000000000
+      internalID: 2844407466859866193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_227
+      rect:
+        serializedVersion: 2
+        x: 6240
+        y: 28
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 208721b96c8afe960800000000000000
+      internalID: 7633505464374949890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_228
+      rect:
+        serializedVersion: 2
+        x: 6249
+        y: 28
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e2e7de9c1c6aeb0800000000000000
+      internalID: -4708863287352217973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_229
+      rect:
+        serializedVersion: 2
+        x: 6332
+        y: 28
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0acaf67a36595f520800000000000000
+      internalID: 2735256603940859040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_230
+      rect:
+        serializedVersion: 2
+        x: 6417
+        y: 28
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e9827e7c5b950100800000000000000
+      internalID: 73635790482213353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_231
+      rect:
+        serializedVersion: 2
+        x: 6501
+        y: 28
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d18d7640228bb180800000000000000
+      internalID: -9098535547038760491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_232
+      rect:
+        serializedVersion: 2
+        x: 6587
+        y: 28
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ade602c5c2b65210800000000000000
+      internalID: 1321440103113354664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_233
+      rect:
+        serializedVersion: 2
+        x: 6672
+        y: 28
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111e0d1fe82c9d380800000000000000
+      internalID: -8945905265596636911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_234
+      rect:
+        serializedVersion: 2
+        x: 6756
+        y: 28
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 918c54bb308b70450800000000000000
+      internalID: 6055010550189246489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_235
+      rect:
+        serializedVersion: 2
+        x: 6842
+        y: 28
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff47d0bc207c6210800000000000000
+      internalID: 1327559327415226352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_236
+      rect:
+        serializedVersion: 2
+        x: 6927
+        y: 28
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6bdd68cfe463990800000000000000
+      internalID: -7406645690662799643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_237
+      rect:
+        serializedVersion: 2
+        x: 7011
+        y: 28
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 651a58833948eaeb0800000000000000
+      internalID: -4706678792712249002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_238
+      rect:
+        serializedVersion: 2
+        x: 7097
+        y: 28
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46ee11bbad92f870800000000000000
+      internalID: 8715201589651891786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_239
+      rect:
+        serializedVersion: 2
+        x: 7182
+        y: 28
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a00ec3f2e09465800800000000000000
+      internalID: 600747925571428362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_240
+      rect:
+        serializedVersion: 2
+        x: 7266
+        y: 28
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03cace35fe61e70f0800000000000000
+      internalID: -1117430440380290000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_241
+      rect:
+        serializedVersion: 2
+        x: 7354
+        y: 28
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 882b02daa8344ca40800000000000000
+      internalID: 5387505317131104904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_242
+      rect:
+        serializedVersion: 2
+        x: 7439
+        y: 28
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff2b3ec3d6b09c7c0800000000000000
+      internalID: -4050693826042154241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_243
+      rect:
+        serializedVersion: 2
+        x: 7524
+        y: 28
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe75460714ca03880800000000000000
+      internalID: -8633211088610764817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_244
+      rect:
+        serializedVersion: 2
+        x: 7609
+        y: 28
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 173cc7d7ba7112550800000000000000
+      internalID: 6134210192767501169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_245
+      rect:
+        serializedVersion: 2
+        x: 7694
+        y: 28
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cbc6904cee883d50800000000000000
+      internalID: 6717275989570145218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_246
+      rect:
+        serializedVersion: 2
+        x: 7779
+        y: 28
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db8aa3e34f56a380800000000000000
+      internalID: -8960369663419970603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_247
+      rect:
+        serializedVersion: 2
+        x: 7864
+        y: 28
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53adb8f03219b1e90800000000000000
+      internalID: -7053884811575043531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_248
+      rect:
+        serializedVersion: 2
+        x: 7949
+        y: 28
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a1b0c14ef5a45e0800000000000000
+      internalID: -1924620457419793840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_249
+      rect:
+        serializedVersion: 2
+        x: 8111
+        y: 28
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8518485bff25c4ee0800000000000000
+      internalID: -1275553336237194920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_250
+      rect:
+        serializedVersion: 2
+        x: 8119
+        y: 28
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3186deef085725c50800000000000000
+      internalID: 6652508796472879123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_251
+      rect:
+        serializedVersion: 2
+        x: 8204
+        y: 28
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c3aff944bc11ea60800000000000000
+      internalID: 7701468398441440194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_252
+      rect:
+        serializedVersion: 2
+        x: 8289
+        y: 28
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5aacf53e407a79b0800000000000000
+      internalID: -5081625748318672290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_253
+      rect:
+        serializedVersion: 2
+        x: 8374
+        y: 28
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d983119954b5f10800000000000000
+      internalID: 2259476161777671456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_254
+      rect:
+        serializedVersion: 2
+        x: 8459
+        y: 28
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2645b9127191db00800000000000000
+      internalID: 851621723793344046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_255
+      rect:
+        serializedVersion: 2
+        x: 8544
+        y: 28
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42805ae13fecb9000800000000000000
+      internalID: 43856164976658468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_256
+      rect:
+        serializedVersion: 2
+        x: 8629
+        y: 28
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f2bf856bd8f0fe0800000000000000
+      internalID: -1220601159677694075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_257
+      rect:
+        serializedVersion: 2
+        x: 8714
+        y: 28
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8ba02d6ac978180800000000000000
+      internalID: -9113143080658487077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_258
+      rect:
+        serializedVersion: 2
+        x: 8799
+        y: 28
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39edf8fe9e38c6430800000000000000
+      internalID: 3777539228226805395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boxy animations3.0-Sheet-export 1_259
+      rect:
+        serializedVersion: 2
+        x: 8884
+        y: 28
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b58e0bb8625ed30800000000000000
+      internalID: 4460013387390671744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 830ec1e046725ac48a8f72a4a2dea430
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      boxy animations3.0-Sheet-export 1_0: -598795722891167231
+      boxy animations3.0-Sheet-export 1_1: 5618823212364223757
+      boxy animations3.0-Sheet-export 1_10: -7814722538024614370
+      boxy animations3.0-Sheet-export 1_100: -2335322336475210021
+      boxy animations3.0-Sheet-export 1_101: 4383770046634976558
+      boxy animations3.0-Sheet-export 1_102: 8790615266584802519
+      boxy animations3.0-Sheet-export 1_103: -8730136334705962080
+      boxy animations3.0-Sheet-export 1_104: -1671380532182535858
+      boxy animations3.0-Sheet-export 1_105: -4510468217458510329
+      boxy animations3.0-Sheet-export 1_106: 8135999673373112866
+      boxy animations3.0-Sheet-export 1_107: -5240931040352274765
+      boxy animations3.0-Sheet-export 1_108: -199391912784489165
+      boxy animations3.0-Sheet-export 1_109: -5914618285509218227
+      boxy animations3.0-Sheet-export 1_11: 4193517047093442791
+      boxy animations3.0-Sheet-export 1_110: 6844279296849214544
+      boxy animations3.0-Sheet-export 1_111: -697819737512184189
+      boxy animations3.0-Sheet-export 1_112: 6427627636579436099
+      boxy animations3.0-Sheet-export 1_113: -2249203330654766943
+      boxy animations3.0-Sheet-export 1_114: -3628861527074563371
+      boxy animations3.0-Sheet-export 1_115: 2675780033766925785
+      boxy animations3.0-Sheet-export 1_116: -2625967434955142411
+      boxy animations3.0-Sheet-export 1_117: 8638483044517461308
+      boxy animations3.0-Sheet-export 1_118: -2348800294160310138
+      boxy animations3.0-Sheet-export 1_119: -1579471086891860165
+      boxy animations3.0-Sheet-export 1_12: 6980558438478795840
+      boxy animations3.0-Sheet-export 1_120: 6562740691849404001
+      boxy animations3.0-Sheet-export 1_121: 3457341352203468606
+      boxy animations3.0-Sheet-export 1_122: -6612312618778488145
+      boxy animations3.0-Sheet-export 1_123: 4930996916692149829
+      boxy animations3.0-Sheet-export 1_124: 901831454078117091
+      boxy animations3.0-Sheet-export 1_125: -7114535052325941673
+      boxy animations3.0-Sheet-export 1_126: -8692201659835327260
+      boxy animations3.0-Sheet-export 1_127: 6442824430415689035
+      boxy animations3.0-Sheet-export 1_128: -8703834005684196306
+      boxy animations3.0-Sheet-export 1_129: 9173720359058627323
+      boxy animations3.0-Sheet-export 1_13: -3561291596679378272
+      boxy animations3.0-Sheet-export 1_130: -1519514836721707237
+      boxy animations3.0-Sheet-export 1_131: -976478735084620357
+      boxy animations3.0-Sheet-export 1_132: -1304865909287549951
+      boxy animations3.0-Sheet-export 1_133: 8095621283425592845
+      boxy animations3.0-Sheet-export 1_134: 7364886797649680560
+      boxy animations3.0-Sheet-export 1_135: -8942948455502588737
+      boxy animations3.0-Sheet-export 1_136: 5503778732935638428
+      boxy animations3.0-Sheet-export 1_137: 785033457010560719
+      boxy animations3.0-Sheet-export 1_138: 6768197294563784865
+      boxy animations3.0-Sheet-export 1_139: 5053477877200236637
+      boxy animations3.0-Sheet-export 1_14: 8076422972275063378
+      boxy animations3.0-Sheet-export 1_140: -2129728976001576734
+      boxy animations3.0-Sheet-export 1_141: -4055363203670896019
+      boxy animations3.0-Sheet-export 1_142: -1040292768149164816
+      boxy animations3.0-Sheet-export 1_143: -1949787104662109357
+      boxy animations3.0-Sheet-export 1_144: -734154661216090115
+      boxy animations3.0-Sheet-export 1_145: -3440182901813946130
+      boxy animations3.0-Sheet-export 1_146: 240752505684803009
+      boxy animations3.0-Sheet-export 1_147: 429871200211257382
+      boxy animations3.0-Sheet-export 1_148: -8828503932958070386
+      boxy animations3.0-Sheet-export 1_149: -7325084153109958121
+      boxy animations3.0-Sheet-export 1_15: 2756299283836114637
+      boxy animations3.0-Sheet-export 1_150: 1218504381784282550
+      boxy animations3.0-Sheet-export 1_151: -6145930833705632845
+      boxy animations3.0-Sheet-export 1_152: 6041138720242035783
+      boxy animations3.0-Sheet-export 1_153: 9106401765466552548
+      boxy animations3.0-Sheet-export 1_154: 6033240923333908899
+      boxy animations3.0-Sheet-export 1_155: 777017286009181683
+      boxy animations3.0-Sheet-export 1_156: 340356628995325143
+      boxy animations3.0-Sheet-export 1_157: 7530288153957083836
+      boxy animations3.0-Sheet-export 1_158: -5042539702350491005
+      boxy animations3.0-Sheet-export 1_159: -8984330486490425704
+      boxy animations3.0-Sheet-export 1_16: 8031626192381906359
+      boxy animations3.0-Sheet-export 1_160: 2255441882471830911
+      boxy animations3.0-Sheet-export 1_161: 7163867463350967614
+      boxy animations3.0-Sheet-export 1_162: -8536332488804633062
+      boxy animations3.0-Sheet-export 1_163: 6299960672814062067
+      boxy animations3.0-Sheet-export 1_164: -1890507441100500006
+      boxy animations3.0-Sheet-export 1_165: -7001398374245675533
+      boxy animations3.0-Sheet-export 1_166: 7543257735871552506
+      boxy animations3.0-Sheet-export 1_167: -973140009443882811
+      boxy animations3.0-Sheet-export 1_168: 4672576145487742814
+      boxy animations3.0-Sheet-export 1_169: -109653980820669991
+      boxy animations3.0-Sheet-export 1_17: -2305674780720058859
+      boxy animations3.0-Sheet-export 1_170: 3195485647411693847
+      boxy animations3.0-Sheet-export 1_171: -5174196190493531461
+      boxy animations3.0-Sheet-export 1_172: 1804588685338798675
+      boxy animations3.0-Sheet-export 1_173: -73639100960160786
+      boxy animations3.0-Sheet-export 1_174: -8801912064023339724
+      boxy animations3.0-Sheet-export 1_175: 4500615348284578645
+      boxy animations3.0-Sheet-export 1_176: -169720699254686123
+      boxy animations3.0-Sheet-export 1_177: -1237491048420652723
+      boxy animations3.0-Sheet-export 1_178: 1890834693733462317
+      boxy animations3.0-Sheet-export 1_179: 2493053312001417521
+      boxy animations3.0-Sheet-export 1_18: -2161549903989582161
+      boxy animations3.0-Sheet-export 1_180: 4855486841922593518
+      boxy animations3.0-Sheet-export 1_181: -6755360699260539601
+      boxy animations3.0-Sheet-export 1_182: -5037653308803870090
+      boxy animations3.0-Sheet-export 1_183: 4863088783737240152
+      boxy animations3.0-Sheet-export 1_184: 3358767312281970527
+      boxy animations3.0-Sheet-export 1_185: -2671817440867520137
+      boxy animations3.0-Sheet-export 1_186: -2583801173391036298
+      boxy animations3.0-Sheet-export 1_187: -6435215250358338601
+      boxy animations3.0-Sheet-export 1_188: 7736525953026340119
+      boxy animations3.0-Sheet-export 1_189: -7745926206208388104
+      boxy animations3.0-Sheet-export 1_19: 7119075603550569537
+      boxy animations3.0-Sheet-export 1_190: -4262970115265240484
+      boxy animations3.0-Sheet-export 1_191: -4537388333436514400
+      boxy animations3.0-Sheet-export 1_192: -4123590054465775382
+      boxy animations3.0-Sheet-export 1_193: 2072952692964982487
+      boxy animations3.0-Sheet-export 1_194: 36917169417800863
+      boxy animations3.0-Sheet-export 1_195: 5720197153691350339
+      boxy animations3.0-Sheet-export 1_196: -67649334570065175
+      boxy animations3.0-Sheet-export 1_197: 3787273856952943625
+      boxy animations3.0-Sheet-export 1_198: 611221535264863292
+      boxy animations3.0-Sheet-export 1_199: -2991151265471569682
+      boxy animations3.0-Sheet-export 1_2: 7205540197439274542
+      boxy animations3.0-Sheet-export 1_20: -1028514699069386499
+      boxy animations3.0-Sheet-export 1_200: 2419078683514587717
+      boxy animations3.0-Sheet-export 1_201: -8370516264580136868
+      boxy animations3.0-Sheet-export 1_202: 6184779490789509061
+      boxy animations3.0-Sheet-export 1_203: -5321610894971898271
+      boxy animations3.0-Sheet-export 1_204: -3693149702421060422
+      boxy animations3.0-Sheet-export 1_205: 7233064401099485427
+      boxy animations3.0-Sheet-export 1_206: 4219213961939410942
+      boxy animations3.0-Sheet-export 1_207: 3033396444672752362
+      boxy animations3.0-Sheet-export 1_208: 4413251579249364146
+      boxy animations3.0-Sheet-export 1_209: -3303385948193032530
+      boxy animations3.0-Sheet-export 1_21: 3132248195924067745
+      boxy animations3.0-Sheet-export 1_210: -7487676807307682293
+      boxy animations3.0-Sheet-export 1_211: 9151835025257711300
+      boxy animations3.0-Sheet-export 1_212: 6160018183424974175
+      boxy animations3.0-Sheet-export 1_213: -2690171434263386304
+      boxy animations3.0-Sheet-export 1_214: -3766284202876441319
+      boxy animations3.0-Sheet-export 1_215: 3150370647721527342
+      boxy animations3.0-Sheet-export 1_216: 5311899488311203439
+      boxy animations3.0-Sheet-export 1_217: -7731986807639510692
+      boxy animations3.0-Sheet-export 1_218: 3571115670810760668
+      boxy animations3.0-Sheet-export 1_219: 6385357963764979762
+      boxy animations3.0-Sheet-export 1_22: -5799545588097809401
+      boxy animations3.0-Sheet-export 1_220: -1941686199227976393
+      boxy animations3.0-Sheet-export 1_221: 6706704294447207472
+      boxy animations3.0-Sheet-export 1_222: -2813270000949673937
+      boxy animations3.0-Sheet-export 1_223: 2404470665523592496
+      boxy animations3.0-Sheet-export 1_224: -8059893022662373134
+      boxy animations3.0-Sheet-export 1_225: -757876290945074095
+      boxy animations3.0-Sheet-export 1_226: 2844407466859866193
+      boxy animations3.0-Sheet-export 1_227: 7633505464374949890
+      boxy animations3.0-Sheet-export 1_228: -4708863287352217973
+      boxy animations3.0-Sheet-export 1_229: 2735256603940859040
+      boxy animations3.0-Sheet-export 1_23: -5133705141385463949
+      boxy animations3.0-Sheet-export 1_230: 73635790482213353
+      boxy animations3.0-Sheet-export 1_231: -9098535547038760491
+      boxy animations3.0-Sheet-export 1_232: 1321440103113354664
+      boxy animations3.0-Sheet-export 1_233: -8945905265596636911
+      boxy animations3.0-Sheet-export 1_234: 6055010550189246489
+      boxy animations3.0-Sheet-export 1_235: 1327559327415226352
+      boxy animations3.0-Sheet-export 1_236: -7406645690662799643
+      boxy animations3.0-Sheet-export 1_237: -4706678792712249002
+      boxy animations3.0-Sheet-export 1_238: 8715201589651891786
+      boxy animations3.0-Sheet-export 1_239: 600747925571428362
+      boxy animations3.0-Sheet-export 1_24: -5363572664747332376
+      boxy animations3.0-Sheet-export 1_240: -1117430440380290000
+      boxy animations3.0-Sheet-export 1_241: 5387505317131104904
+      boxy animations3.0-Sheet-export 1_242: -4050693826042154241
+      boxy animations3.0-Sheet-export 1_243: -8633211088610764817
+      boxy animations3.0-Sheet-export 1_244: 6134210192767501169
+      boxy animations3.0-Sheet-export 1_245: 6717275989570145218
+      boxy animations3.0-Sheet-export 1_246: -8960369663419970603
+      boxy animations3.0-Sheet-export 1_247: -7053884811575043531
+      boxy animations3.0-Sheet-export 1_248: -1924620457419793840
+      boxy animations3.0-Sheet-export 1_249: -1275553336237194920
+      boxy animations3.0-Sheet-export 1_25: 8022092636490239222
+      boxy animations3.0-Sheet-export 1_250: 6652508796472879123
+      boxy animations3.0-Sheet-export 1_251: 7701468398441440194
+      boxy animations3.0-Sheet-export 1_252: -5081625748318672290
+      boxy animations3.0-Sheet-export 1_253: 2259476161777671456
+      boxy animations3.0-Sheet-export 1_254: 851621723793344046
+      boxy animations3.0-Sheet-export 1_255: 43856164976658468
+      boxy animations3.0-Sheet-export 1_256: -1220601159677694075
+      boxy animations3.0-Sheet-export 1_257: -9113143080658487077
+      boxy animations3.0-Sheet-export 1_258: 3777539228226805395
+      boxy animations3.0-Sheet-export 1_259: 4460013387390671744
+      boxy animations3.0-Sheet-export 1_26: -3848383944235210971
+      boxy animations3.0-Sheet-export 1_260: -2110267248
+      boxy animations3.0-Sheet-export 1_27: -6324853729649150626
+      boxy animations3.0-Sheet-export 1_28: -9059377302540781798
+      boxy animations3.0-Sheet-export 1_29: -6498376287684837134
+      boxy animations3.0-Sheet-export 1_3: 7884404519107223659
+      boxy animations3.0-Sheet-export 1_30: 339495525022952218
+      boxy animations3.0-Sheet-export 1_31: -7390999562378825916
+      boxy animations3.0-Sheet-export 1_32: 455853950572895460
+      boxy animations3.0-Sheet-export 1_33: -7614157819265528119
+      boxy animations3.0-Sheet-export 1_34: 3630844634289581230
+      boxy animations3.0-Sheet-export 1_35: 7785867890049397693
+      boxy animations3.0-Sheet-export 1_36: -285985213358607269
+      boxy animations3.0-Sheet-export 1_37: -1135004417393419712
+      boxy animations3.0-Sheet-export 1_38: -8604758560899515574
+      boxy animations3.0-Sheet-export 1_39: -8506460508665784730
+      boxy animations3.0-Sheet-export 1_4: 5892318089629806963
+      boxy animations3.0-Sheet-export 1_40: 4563271724266620352
+      boxy animations3.0-Sheet-export 1_41: 8592298275720241257
+      boxy animations3.0-Sheet-export 1_42: -5131986261527651060
+      boxy animations3.0-Sheet-export 1_43: -8646429488742654035
+      boxy animations3.0-Sheet-export 1_44: 8899794579062324956
+      boxy animations3.0-Sheet-export 1_45: -7376821746634312638
+      boxy animations3.0-Sheet-export 1_46: -8895077046599124715
+      boxy animations3.0-Sheet-export 1_47: 4254570380833548675
+      boxy animations3.0-Sheet-export 1_48: -4849653658432278050
+      boxy animations3.0-Sheet-export 1_49: 26241868986418511
+      boxy animations3.0-Sheet-export 1_5: 4882032204247423723
+      boxy animations3.0-Sheet-export 1_50: 9068673896317782780
+      boxy animations3.0-Sheet-export 1_51: 1394072662334539473
+      boxy animations3.0-Sheet-export 1_52: -8740251179862227462
+      boxy animations3.0-Sheet-export 1_53: 6898202188293824372
+      boxy animations3.0-Sheet-export 1_54: -7349407663424693173
+      boxy animations3.0-Sheet-export 1_55: -4170571967067284358
+      boxy animations3.0-Sheet-export 1_56: -4982038521322831761
+      boxy animations3.0-Sheet-export 1_57: -2770759254040986826
+      boxy animations3.0-Sheet-export 1_58: 4129223907360222528
+      boxy animations3.0-Sheet-export 1_59: 8430034489034950737
+      boxy animations3.0-Sheet-export 1_6: 306377975011419195
+      boxy animations3.0-Sheet-export 1_60: -267430475156915919
+      boxy animations3.0-Sheet-export 1_61: 726858035083118642
+      boxy animations3.0-Sheet-export 1_62: 8785635739220147739
+      boxy animations3.0-Sheet-export 1_63: -2860361867285329932
+      boxy animations3.0-Sheet-export 1_64: 194542477532056696
+      boxy animations3.0-Sheet-export 1_65: 163442074094501679
+      boxy animations3.0-Sheet-export 1_66: -2369402024679450548
+      boxy animations3.0-Sheet-export 1_67: 3077445966926947812
+      boxy animations3.0-Sheet-export 1_68: -405720043565580293
+      boxy animations3.0-Sheet-export 1_69: -8332097080812729425
+      boxy animations3.0-Sheet-export 1_7: 6834256727043323292
+      boxy animations3.0-Sheet-export 1_70: 6961431605734173403
+      boxy animations3.0-Sheet-export 1_71: -244049372533849984
+      boxy animations3.0-Sheet-export 1_72: 7086866641199327752
+      boxy animations3.0-Sheet-export 1_73: -7046742082459740797
+      boxy animations3.0-Sheet-export 1_74: -703680942127416239
+      boxy animations3.0-Sheet-export 1_75: -3923291162725103634
+      boxy animations3.0-Sheet-export 1_76: -6472380586464111482
+      boxy animations3.0-Sheet-export 1_77: -6869649969037361836
+      boxy animations3.0-Sheet-export 1_78: -2384801400912923003
+      boxy animations3.0-Sheet-export 1_79: 4036314787495400562
+      boxy animations3.0-Sheet-export 1_8: -1575093379543231018
+      boxy animations3.0-Sheet-export 1_80: -6452844597438406380
+      boxy animations3.0-Sheet-export 1_81: 1336953491360338791
+      boxy animations3.0-Sheet-export 1_82: -787703361219928909
+      boxy animations3.0-Sheet-export 1_83: -4437168773300413030
+      boxy animations3.0-Sheet-export 1_84: 677436540105208518
+      boxy animations3.0-Sheet-export 1_85: -2840058709786692493
+      boxy animations3.0-Sheet-export 1_86: 7118282752861234896
+      boxy animations3.0-Sheet-export 1_87: -7177267007138748038
+      boxy animations3.0-Sheet-export 1_88: -3995480471242373658
+      boxy animations3.0-Sheet-export 1_89: 3283115087437545090
+      boxy animations3.0-Sheet-export 1_9: 9084733441784713972
+      boxy animations3.0-Sheet-export 1_90: -5507953321331314706
+      boxy animations3.0-Sheet-export 1_91: 5879947083560234788
+      boxy animations3.0-Sheet-export 1_92: -7187814741302206338
+      boxy animations3.0-Sheet-export 1_93: -5385469842885829476
+      boxy animations3.0-Sheet-export 1_94: 820472836587834145
+      boxy animations3.0-Sheet-export 1_95: -218706518588264089
+      boxy animations3.0-Sheet-export 1_96: 79633332316067391
+      boxy animations3.0-Sheet-export 1_97: -5899102543013371476
+      boxy animations3.0-Sheet-export 1_98: 6139127826731453763
+      boxy animations3.0-Sheet-export 1_99: -5079357752291943389
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
