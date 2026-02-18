@@ -1,5 +1,8 @@
 using UnityEngine;
 
+/// <summary>
+/// Handles player movement, jumping, wall mechanics, dashing, and animations.
+/// </summary>
 public class PlayerController : MonoBehaviour
 {
     [Header("Movement")]
@@ -10,13 +13,13 @@ public class PlayerController : MonoBehaviour
     public Transform groundCheck;
     public float groundCheckRadius = 0.1f;
     public LayerMask groundLayer;
+    public int maxJumps = 2;
 
     private Rigidbody2D rb;
     private float moveInput;
     private float lastMoveDirection = 1f;
     private bool isGrounded;
     private int jumpsRemaining;
-    public int maxJumps = 2;
     private float jumpTakeOffCooldown = 0.20f;
     private float jumpTakeOffCooldownReset = 0.20f;
 
@@ -32,7 +35,6 @@ public class PlayerController : MonoBehaviour
 
     private bool isTouchingWall;
     private bool isWallSliding;
-    private bool isWallJumping;
     private float wallDirection;
     public LayerMask wallLayer;
 
@@ -43,14 +45,13 @@ public class PlayerController : MonoBehaviour
 
     private bool isDashing;
     private bool canDash = true;
-    private float dashTime;
     private float dashCooldownTimer;
 
     [Header("Color Probes")]
-    public ProbeManager probeManager;
-    public GameObject probe1;
-    public GameObject probe2;
-    public GameObject probe3;
+    private ProbeManager probeManager;
+    private GameObject probe1;
+    private GameObject probe2;
+    private GameObject probe3;
     private ProbeBehavior pB1;
     private ProbeBehavior pB2;
     private ProbeBehavior pB3;
@@ -58,8 +59,16 @@ public class PlayerController : MonoBehaviour
     [Header("Respawn")]
     private Vector3 spawnPosition;
 
+    [Header("Animations")]
+    public Animator animator;
+    public Transform spriteChild;
+
+    private bool facingRight = true;
+    private string currentAnimationState = "";
+
     void Awake()
     {
+        // Initialize references
         rb = GetComponent<Rigidbody2D>();
         probeManager = transform.Find("ProbePosition").GetComponent<ProbeManager>();
         probe1 = probeManager.probe1;
@@ -68,48 +77,36 @@ public class PlayerController : MonoBehaviour
         pB1 = probe1.GetComponent<ProbeBehavior>();
         pB2 = probe2.GetComponent<ProbeBehavior>();
         pB3 = probe3.GetComponent<ProbeBehavior>();
+        
+        // Initialize jump state
         jumpsRemaining = maxJumps;
+        
+        // Set spawn position for respawn
         spawnPosition = transform.position;
     }
 
     void Update()
     {
-        Debug.Log(jumpsRemaining.ToString());
-        Debug.Log(maxJumps.ToString());
-
+        // Get movement input
         moveInput = Input.GetAxisRaw("Horizontal");
 
-        // Track last movement direction
+        // Update facing direction and flip sprite
         if (moveInput != 0)
         {
             lastMoveDirection = Mathf.Sign(moveInput);
+            FlipCharacter();
         }
 
-        // Check if touching ground
+        // Check ground and wall contact
         isGrounded = Physics2D.OverlapCircle(
             groundCheck.position,
             groundCheckRadius,
             groundLayer
         );
 
-        isTouchingWall = Physics2D.OverlapCircle(
-            wallCheck.position,
-            wallCheckDistance,
-            wallLayer
-        );
+        DetectWall();
 
-        // Wall direction
-        RaycastHit2D wallHitRight = Physics2D.Raycast(transform.position, Vector2.right, wallCheckDistance, wallLayer);
-        RaycastHit2D wallHitLeft = Physics2D.Raycast(transform.position, Vector2.left, wallCheckDistance, wallLayer);
-
-        isTouchingWall = wallHitRight || wallHitLeft;
-
-        if (wallHitRight)
-            wallDirection = 1f;
-        else if (wallHitLeft)
-            wallDirection = -1f;
-
-        // Wall slide
+        // Handle wall slide
         if (isTouchingWall && !isGrounded && rb.linearVelocity.y < 0 && wallJumpLockCounter <= 0)
         {
             isWallSliding = true;
@@ -119,23 +116,19 @@ public class PlayerController : MonoBehaviour
             isWallSliding = false;
         }
 
+        // Handle jumping
         if (Input.GetButtonDown("Jump"))
         {
-            // WALL JUMP
             if (isTouchingWall && !isGrounded)
             {
                 WallJump();
                 canDash = true;
-                jumpsRemaining = maxJumps - 1; // allow one air jump after wall jump
-                return;
+                jumpsRemaining = maxJumps - 1;
             }
-
-            // NORMAL / DOUBLE JUMP
-            if (jumpsRemaining > 0)
+            else if (jumpsRemaining > 0)
             {
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
                 jumpsRemaining--;
-                Debug.Log("Jump subtracted!");
             }
         }
 
@@ -143,19 +136,20 @@ public class PlayerController : MonoBehaviour
         if (isGrounded)
         {
             jumpTakeOffCooldown -= Time.deltaTime;
-            if (jumpsRemaining != 2 && jumpTakeOffCooldown <= 0)
+            if (jumpsRemaining != maxJumps && jumpTakeOffCooldown <= 0)
             {
-                Debug.Log("Is Grounded!");
                 jumpsRemaining = maxJumps;
                 jumpTakeOffCooldown = jumpTakeOffCooldownReset;
             }
         }
 
+        // Reduce jumps when touching wall
         if (isTouchingWall)
         {
             jumpsRemaining = 1;
         }
 
+        // Handle dash cooldown
         if (!canDash)
         {
             dashCooldownTimer -= Time.deltaTime;
@@ -165,52 +159,48 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        // Start dash
+        // Handle dash input
         if (Input.GetKeyDown(KeyCode.LeftShift) && canDash && !isDashing)
         {
             StartDash();
         }
 
-        // Respawn
+        // Handle respawn
         if (Input.GetKeyDown(KeyCode.R))
         {
             Respawn();
         }
 
-        if(Input.GetKeyDown(KeyCode.Alpha1))
-        {
-            bool newState = !pB1.lightObject.activeSelf;
-            pB1.lightObject.SetActive(newState);
-        }
-        if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            bool newState = !pB2.lightObject.activeSelf;
-            pB2.lightObject.SetActive(newState);
-        }
-        if (Input.GetKeyDown(KeyCode.Alpha3))
-        {
-            bool newState = !pB3.lightObject.activeSelf;
-            pB3.lightObject.SetActive(newState);
-        }
+        // Handle color probe toggles
+        ToggleProbe(KeyCode.Alpha1, pB1);
+        ToggleProbe(KeyCode.Alpha2, pB2);
+        ToggleProbe(KeyCode.Alpha3, pB3);
+
+        // Update animations based on current state
+        UpdateAnimation();
     }
 
     void FixedUpdate()
     {
+        // Don't apply movement during dash
         if (isDashing)
             return;
 
+        // Don't allow input during wall jump lock
         if (wallJumpLockCounter > 0)
         {
             wallJumpLockCounter -= Time.fixedDeltaTime;
-            return; // Ignore player input during lock
+            return;
         }
 
+        // Apply wall slide velocity
         if (isWallSliding && wallJumpLockCounter <= 0)
         {
             rb.linearVelocity = new Vector2(0f, -wallSlideSpeed);
             return;
         }
 
+        // Apply normal movement
         rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
     }
 
@@ -218,23 +208,26 @@ public class PlayerController : MonoBehaviour
     {
         isDashing = true;
         canDash = false;
-        dashTime = dashDuration;
         dashCooldownTimer = dashCooldown;
 
+        // Disable gravity during dash
         rb.gravityScale = 0f;
 
+        // Apply dash force in facing direction
         float dashDirection = moveInput != 0 ? Mathf.Sign(moveInput) : lastMoveDirection;
         rb.linearVelocity = new Vector2(dashDirection * dashForce, 0f);
 
         Invoke(nameof(EndDash), dashDuration);
     }
+
     void EndDash()
     {
         isDashing = false;
-        rb.gravityScale = 10f; // Set back to your normal gravity
+        rb.gravityScale = 10f;
     }
     void WallJump()
     {
+        // Lock input during wall jump and apply force away from wall
         wallJumpLockCounter = wallJumpLockTime;
 
         rb.linearVelocity = new Vector2(
@@ -243,15 +236,106 @@ public class PlayerController : MonoBehaviour
         );
     }
 
+    void DetectWall()
+    {
+        // Raycast both directions to detect walls
+        RaycastHit2D wallHitRight = Physics2D.Raycast(transform.position, Vector2.right, wallCheckDistance, wallLayer);
+        RaycastHit2D wallHitLeft = Physics2D.Raycast(transform.position, Vector2.left, wallCheckDistance, wallLayer);
+
+        // Determine if touching wall and which direction
+        isTouchingWall = wallHitRight || wallHitLeft;
+
+        if (wallHitRight)
+            wallDirection = 1f;
+        else if (wallHitLeft)
+            wallDirection = -1f;
+    }
+
     public void Respawn()
     {
+        // Reset position and velocity
         transform.position = spawnPosition;
         rb.linearVelocity = Vector2.zero;
+        
+        // Reset movement states
         isDashing = false;
         rb.gravityScale = 10f;
         jumpsRemaining = maxJumps;
         wallJumpLockCounter = 0f;
         isWallSliding = false;
-        isWallJumping = false;
+    }
+
+    void ToggleProbe(KeyCode key, ProbeBehavior probe)
+    {
+        // Toggle probe light on/off
+        if (Input.GetKeyDown(key))
+        {
+            bool newState = !probe.lightObject.activeSelf;
+            probe.lightObject.SetActive(newState);
+        }
+    }
+
+    void FlipCharacter()
+    {
+        // Flip sprite based on movement direction
+        if (spriteChild == null) return;
+
+        if (moveInput > 0 && !facingRight)
+        {
+            facingRight = true;
+            spriteChild.localScale = new Vector3(1f, 1f, 1f);
+        }
+        else if (moveInput < 0 && facingRight)
+        {
+            facingRight = false;
+            spriteChild.localScale = new Vector3(-1f, 1f, 1f);
+        }
+    }
+
+    void FlipCharacterOpposite()
+    {
+        // Flip opposite direction for wall (face away from wall)
+        if (spriteChild == null) return;
+
+        if (moveInput > 0)
+            spriteChild.localScale = new Vector3(-1f, 1f, 1f);
+        else if (moveInput < 0)
+            spriteChild.localScale = new Vector3(1f, 1f, 1f);
+    }
+
+    void UpdateAnimation()
+    {
+        // Don't change animation during dash
+        if (isDashing)
+            return;
+
+        // Play appropriate animation based on state
+        if (isWallSliding)
+        {
+            PlayAnimation("Wall");
+            FlipCharacterOpposite();
+        }
+        else if (!isGrounded)
+        {
+            PlayAnimation("Jump");
+        }
+        else if (moveInput != 0)
+        {
+            PlayAnimation("Walk");
+        }
+        else
+        {
+            PlayAnimation("Idle");
+        }
+    }
+
+    void PlayAnimation(string animationName)
+    {
+        // Only update animation if state changed
+        if (currentAnimationState != animationName)
+        {
+            animator.SetTrigger(animationName);
+            currentAnimationState = animationName;
+        }
     }
 }

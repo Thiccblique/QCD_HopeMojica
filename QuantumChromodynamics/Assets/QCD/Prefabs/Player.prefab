@@ -236,10 +236,8 @@ MonoBehaviour:
   dashForce: 40
   dashDuration: 0.15
   dashCooldown: 0.5
-  probeManager: {fileID: 0}
-  probe1: {fileID: 0}
-  probe2: {fileID: 0}
-  probe3: {fileID: 0}
+  animator: {fileID: 6326155978416645119}
+  spriteChild: {fileID: 2506004124996670756}
 --- !u!1 &1716198854642464330
 GameObject:
   m_ObjectHideFlags: 0
@@ -1522,7 +1520,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1202095167362353652, guid: f318e2d3f0a8f3c4e9bb921d0339e11a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.416
       objectReference: {fileID: 0}
     - target: {fileID: 1202095167362353652, guid: f318e2d3f0a8f3c4e9bb921d0339e11a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1568,6 +1566,11 @@ PrefabInstance:
 --- !u!4 &2506004124996670756 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1202095167362353652, guid: f318e2d3f0a8f3c4e9bb921d0339e11a, type: 3}
+  m_PrefabInstance: {fileID: 3632626262613155024}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &6326155978416645119 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7323604023627693871, guid: f318e2d3f0a8f3c4e9bb921d0339e11a, type: 3}
   m_PrefabInstance: {fileID: 3632626262613155024}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7840933558948521999
