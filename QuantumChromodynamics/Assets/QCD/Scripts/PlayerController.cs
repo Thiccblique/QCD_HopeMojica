@@ -20,8 +20,8 @@ public class PlayerController : MonoBehaviour
     private float lastMoveDirection = 1f;
     private bool isGrounded;
     private int jumpsRemaining;
-    private float jumpTakeOffCooldown = 0.20f;
-    private float jumpTakeOffCooldownReset = 0.20f;
+    private float jumpTakeOffCooldown = 0.10f;
+    private float jumpTakeOffCooldownReset = 0.10f;
 
     [Header("Wall Jump")]
     public Transform wallCheck;
@@ -127,6 +127,7 @@ public class PlayerController : MonoBehaviour
             }
             else if (jumpsRemaining > 0)
             {
+                Debug.Log("Jumps remaining: " + jumpsRemaining);
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
                 jumpsRemaining--;
             }
@@ -135,11 +136,26 @@ public class PlayerController : MonoBehaviour
         // Reset jumps when grounded
         if (isGrounded)
         {
-            jumpTakeOffCooldown -= Time.deltaTime;
-            if (jumpsRemaining != maxJumps && jumpTakeOffCooldown <= 0)
+            if (jumpsRemaining != maxJumps)
             {
-                jumpsRemaining = maxJumps;
-                jumpTakeOffCooldown = jumpTakeOffCooldownReset;
+                bool cdOver = false;
+                jumpTakeOffCooldown -= Time.deltaTime;
+                //Debug.Log("Jump CD: " + jumpTakeOffCooldown);
+
+                if (jumpTakeOffCooldown < 0)
+                {
+                    jumpTakeOffCooldown = 0;
+                    cdOver = true;
+                }
+
+                Debug.Log("Jumps remaining: " + jumpsRemaining);
+                
+                if (cdOver)
+                {
+                    jumpsRemaining = maxJumps;
+                    jumpTakeOffCooldown = jumpTakeOffCooldownReset;
+                    Debug.Log("Jumps reset!");
+                }
             }
         }
 
