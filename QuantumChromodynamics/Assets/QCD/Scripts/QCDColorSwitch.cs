@@ -25,6 +25,8 @@ public class QCDColorSwitch : MonoBehaviour
     private float activationTimer = 0f;
     private bool isActive = false;
 
+    private QCDSwitchCableBuilder cableBuilder;
+
     [System.Flags]
     public enum LightFlags
     {
@@ -32,6 +34,11 @@ public class QCDColorSwitch : MonoBehaviour
         Red = 1 << 0,  // 001
         Green = 1 << 1,  // 010
         Blue = 1 << 2   // 100
+    }
+
+    private void Awake()
+    {
+        cableBuilder = GetComponent<QCDSwitchCableBuilder>();
     }
 
     private void Update()
@@ -111,6 +118,18 @@ public class QCDColorSwitch : MonoBehaviour
 
         if (targetSprite != null)
             targetSprite.color = GetColorFromFlags(requiredBeams);
+
+        foreach (var segment in cableBuilder.spawnedSegments)
+        {
+            SpriteRenderer segmentSprite = segment.GetComponent<SpriteRenderer>();
+            segmentSprite.color = GetColorFromFlags(requiredBeams);
+        }
+
+        //This will highly depend on what is being activated. Make a separate script for this activation stuff on the activated object.
+        SpriteRenderer activatedObjectSprite = cableBuilder.activatedObject.GetComponent<SpriteRenderer>();
+        activatedObjectSprite.enabled = false;
+        BoxCollider2D activatedObjectCollider = cableBuilder.activatedObject.GetComponent<BoxCollider2D>();
+        activatedObjectCollider.enabled = false;
     }
 
     private void DeactivateObject()

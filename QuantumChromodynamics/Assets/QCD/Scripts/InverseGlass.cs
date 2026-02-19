@@ -29,6 +29,7 @@ public class InverseGlass : MonoBehaviour
     private bool isDragging = false;
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
+    private PolygonCollider2D polygonCollider;
     private Tweener scaleTweener;
     private Tweener placementTweener;
     private Tweener toggleTweener;
@@ -39,7 +40,7 @@ public class InverseGlass : MonoBehaviour
         originalScale = transform.localScale;
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        
+        polygonCollider = GetComponent<PolygonCollider2D>();
       
     }
 
@@ -142,6 +143,7 @@ public class InverseGlass : MonoBehaviour
                     if (spriteRenderer != null)
                     {
                         spriteRenderer.enabled = false;
+                        polygonCollider.enabled = false;
                     }
                 });
         }
@@ -150,6 +152,7 @@ public class InverseGlass : MonoBehaviour
             if (spriteRenderer != null)
             {
                 spriteRenderer.enabled = true;
+                polygonCollider.enabled = true;
             }
             transform.localScale = originalScale * hiddenScaleFactor;
             isVisible = true;
